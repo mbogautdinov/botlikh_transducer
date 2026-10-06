@@ -55,18 +55,37 @@ alone, for example `make bot_nouns_analyzer.hfstol`. `make clean` removes the co
 
 ## Usage
 
-```bash
-$ echo "адамилъи" | hfst-lookup -q bot_allclitics_analyzer.hfstol
-адамилъи	адам<N>><gen>	0.000000
-адамилъи	адам<N>><in>	0.000000
+An analyzer returns the analysis of a word form (*решиди* is the ergative of *реши* ‘year’):
 
-$ echo "адам<N>><gen>" | hfst-lookup -q bot_allclitics_generator.hfst
-адам<N>><gen>	адамалъи	0.000000
-адам<N>><gen>	адамилъи	0.000000
-адам<N>><gen>	адамулъи	0.000000
+```bash
+$ echo "решиди" | hfst-lookup -q bot_allclitics_analyzer.hfstol
+решиди	реши<N>><erg>	0.000000
 ```
 
-A form that is not recognised is returned with `+?`.
+A generator does the opposite and builds a form from its analysis:
+
+```bash
+$ echo "реши<N>><pl>" | hfst-lookup -q bot_allclitics_generator.hfst
+реши<N>><pl>	реше	0.000000
+```
+
+Several words are analysed at once if every word stands on its own line. A phrase can be split with `tr`
+(the phrase means ‘300 years ago’ and is taken from the Spoken corpus of Botlikh):
+
+```bash
+$ echo "гьабубешунда решиди ссеъахвала" | tr ' ' '\n' | hfst-lookup -q bot_allclitics_analyzer.hfstol
+гьабубешунда	гьабубешунуда<NUM>><num>	0.000000
+
+решиди	реши<N>><erg>	0.000000
+
+ссеъахвала	ссеъа<ADV>=<indef>	0.000000
+```
+
+A file with one word per line is analysed in the same way:
+`hfst-lookup -q bot_allclitics_analyzer.hfstol < words.txt`.
+
+Many forms have more than one analysis; then every analysis is printed on its own line. A form that is not
+recognised is returned with `+?`.
 
 ### Format of the analysis
 
