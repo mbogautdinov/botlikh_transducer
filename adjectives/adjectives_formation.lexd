@@ -1,0 +1,93 @@
+PATTERNS
+
+Adjective
+
+PATTERN Adjective
+
+AdjNoClassForms
+AdjPrefixForms
+AdjSuffixForms
+AdjPreSuffixForms
+
+PATTERN AdjNoClassForms
+
+AdjNo [<ADJ>:]
+AdjNo [<ADJ>:] [>:>] OblM
+AdjNo [<ADJ>:] [>:>] OblNm
+AdjNo [<ADJ>:] [>:>] OblPl
+
+PATTERN AdjPrefixForms
+
+ClPre [>:>] AdjPre [<ADJ>:]
+ClPre[m]  [>:>] AdjPre [<ADJ>:] [>:>] OblM
+ClPre[nm] [>:>] AdjPre [<ADJ>:] [>:>] OblNm
+ClPre[pl] [>:>] AdjPre [<ADJ>:] [>:>] OblPl
+
+PATTERN AdjSuffixForms
+
+AdjSuf [<ADJ>:] [>:>] ClTag[m]  ClSuf[m]
+AdjSuf [<ADJ>:] [>:>] ClTag[f]  ClSuf[f]
+AdjSuf [<ADJ>:] [>:>] ClTag[n]  ClSuf[n]
+AdjSuf [<ADJ>:] [>:>] ClTag[pl] ClSuf[pl]
+AdjSuf [<ADJ>:] [>:>] OblM
+AdjSuf [<ADJ>:] [>:>] OblNm
+AdjSuf [<ADJ>:] [>:>] ClTag[pl] ClSuf[pl] [>:>] OblPlSuf
+
+PATTERN AdjPreSuffixForms
+
+ClPre[m]  [>:>] AdjPreSuf [<ADJ>:] [:>] ClSuf[m]
+ClPre[f]  [>:>] AdjPreSuf [<ADJ>:] [:>] ClSuf[f]
+ClPre[n]  [>:>] AdjPreSuf [<ADJ>:] [:>] ClSuf[n]
+ClPre[pl] [>:>] AdjPreSuf [<ADJ>:] [:>] ClSuf[pl]
+ClPre[m]  [>:>] AdjPreSuf [<ADJ>:] [>:>] OblM
+ClPre[nm] [>:>] AdjPreSuf [<ADJ>:] [>:>] OblNm
+ClPre[pl] [>:>] AdjPreSuf [<ADJ>:] [:>] ClSuf[pl] [>:>] OblPlSuf
+
+PATTERN OblM
+
+[<m.obl>:щу] [>:>] AdjCase
+
+PATTERN OblNm
+
+[<nm.obl>:лълъи] [>:>] AdjCase[-genb]
+[<nm.obl>:] [>:>] [<gen>:лъилъи]
+
+PATTERN OblPl
+
+[<pl.obl>:{a}лу] [>:>] AdjCase
+
+PATTERN OblPlSuf
+
+[<pl.obl>:у] [>:>] AdjCase
+
+LEXICON ClPre
+
+<m>:в[m]
+<f>:й[f,nm]
+<n>:б[n,nm]
+<inan.pl>:б[n,nm]
+<an.pl>:р[pl]
+
+LEXICON ClTag
+
+<m>:[m]
+<f>:[f]
+<n>:[n]
+<inan.pl>:[n]
+<an.pl>:[pl]
+
+LEXICON ClSuf
+
+:{M}в[m]
+:{M}[m]
+:в[m]
+:й[f]
+:б[n]
+:{N}б[n]
+:л[pl]
+
+LEXICON AdjCase
+
+<erg>:ди
+<dat>:й
+<gen>:б[genb]

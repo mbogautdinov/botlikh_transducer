@@ -1,0 +1,34 @@
+LEXICON Clitic
+
+=<add>:ла            # additive 'тоже' (денла 'я тоже')
+=<cq>:ла             # content question (эбла 'what')
+=<comit>:лълъи       # comitative (лълъенилълъи 'with water')
+=<even>:дала         # 'даже, ни, тоже' (миндала)
+=<func>:лъун         # functive 'в качестве' (мугIалим=лъун)
+=<indef>:хвала       # indefinite / 'хоть, хотя бы'
+=<indef>:гIала       # indefinite
+=<indef>:кIвала      # indefinite (инндакIвала)
+=<int>:да            # intensifier 'уже, же, даже' (дуйда)
+=<ptc>:хха           # emphatic 'же'
+=<ptc>:ха            # emphatic 'же'
+=<towards>:ду        # 'по направлению к' (-ду)
+=<towards>:ххинду    # 'по направлению к' (рухьулъаххинду)
+=<quot>:талу         # quotative 'мол'
+=<quot>:кIул         # quotative
+=<rep>:хвата         # reportative 'говорят'
+=<an.cq>:лъила       # animate content question (эпилъила 'why')
+=<an.pq>:лъима       # animate polar question (гьинулъимахикIул)
+=<inan.cq>:хула      # inanimate content question (эбхула 'what')
+=<inan.pq>:хума      # inanimate polar question (батIебхума)
+=<pq>:ма             # polar question (букIичIама)
+=<simil>><n>:ццуб    # similative 'словно, такой же как' (хъидабццуб)
+=<simil>><m>:ццув    # similative, m (вацциццув)
+=<restr>><n>:гъаб    # restrictive 'именно этот (из нескольких)' (замангъаб)
+=<restr>><m>:гъов    # restrictive, m (гьацегъов)
+=<emph>:кIа          # emphatic 'же' (минкIа)
+=<until>:дера        # 'до, пока' (-дера)
+=<opt>:бе            # optative 'пусть' (-бе)
+=<compar>:гъу        # comparative 'как' (анзигъу гьацIахха)
+=<atr>><n>:ссуб      # attributive (ссессуб, горудиссуб)
+=<inan.atr>><n>:хоб  # inanimate attributive (дийхоб, идахоб)
+=<a_lot>:бугъа       # 'очень, много' (мицIцIабугъа)

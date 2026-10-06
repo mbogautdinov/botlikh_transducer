@@ -1,0 +1,65 @@
+form	analysis	expected	source
+кIату	кIату<N>	yes	AA2019 p.526 (singular nominative)
+кIате	кIату<N>><pl>	yes	AA2019 p.526
+инцце	инцци<N>><pl>	yes	AA2019 p.526
+хъуче	хъуча<N>><pl>	yes	AA2019 p.527
+саре	сари<N>><pl>	yes	AA2019 p.527
+аскарде	аскар<N>><pl>	yes	AA2019 p.527
+гьингурде	гьингур<N>><pl>	yes	AA2019 p.525
+чирахъабалъи	чирахъ<N>><pl>	yes	AA2019 p.525
+илабалъи	ила<N>><pl>	yes	AA2019 p.527
+рушибалъи	руша<N>><pl>	yes	AA2019 p.525
+гьанкъвабалъи	гьанкъу<N>><pl>	yes	AA2019 p.525
+адамал	адам<N>><pl>	yes	AA2019 p.526 (-ал)
+макIил	макIи<N>><pl>	yes	AA2019 p.526 (-л)
+ваццил	вацци<N>><pl>	yes	AA2019 p.526 (-л)
+йаццил	йацци<N>><pl>	yes	AA2019 p.526 (-л)
+вашал	ваша<N>><pl>	yes	AA2019 p.526 (-л)
+йешил	йеши<N>><pl>	yes	AA2019 p.526 (-л)
+чачанал	чачанав<N>><pl>	yes	AA2019 p.527 (-ав - -ал)
+кубанал	кубанав<N>><pl>	yes	dictionary: -л
+гIакълве	гIакълу<N>><pl>	yes	dictionary: -ве; агьлу - агьлве
+вакилзабалъи	вакил<N>><pl>	yes	dictionary: -забалъи
+приступленийабалъи	приступлени<N>><pl>	yes	dictionary: -йабалъи; -и is kept
+буртималъи	буртина<N>><pl>	yes	dictionary: -малъи; н + б > м
+бесумалъи	бесун<N>><pl>	yes	dictionary: -малъи; н + б > м
+хурдалъи	хури<N>><pl>	yes	AA2019 p.527 (-и is dropped)
+регъибалъи	регъил<N>><pl>	yes	AA2019 p.527 (-л is dropped)
+хурдалъи	хури<N>><pl>	yes	AA2019 p.527
+хвадалъи	хвай<N>><pl>	yes	rule: й is dropped
+аскаради	аскар<N>><erg>	yes	AA2019 p.525 (аскара-ди)
+аскаралъи	аскар<N>><gen>	yes	AA2019 p.525
+аскарай	аскар<N>><dat>	yes	AA2019 p.525
+хъучиди	хъуча<N>><erg>	yes	AA2019 p.525
+хъучилъи	хъуча<N>><gen>	yes	AA2019 p.525
+хъучи	хъуча<N>><dat>	yes	AA2019 p.525 (nothing after -и)
+илуди	ила<N>><erg>	yes	AA2019 p.525
+илулъи	ила<N>><gen>	yes	AA2019 p.525
+илуй	ила<N>><dat>	yes	AA2019 p.525
+саруди	сари<N>><erg>	yes	AA2019 p.525 (the lemma саре is written as сари)
+саруй	сари<N>><dat>	yes	AA2019 p.525
+аскардеди	аскар<N>><pl>><erg>	yes	plural: nothing is added after -де
+аскардейи	аскар<N>><pl>><dat>	yes	dative -йи after -е
+адамали	адамал<N>><dat>	yes	dative -и after a consonant
+вашащуди	ваша<N>><erg>	yes	group [l], -щу
+вашащуб	ваша<N>><gen>	yes	group [l], -щу-б
+вашащуй	ваша<N>><dat>	yes	group [l]
+йешилълъиди	йеши<N>><erg>	yes	group [l], -лълъи
+йешилълъилъи	йеши<N>><gen>	yes	group [l], -лълъи-лъи
+йешилълъи	йеши<N>><dat>	yes	group [l]: nothing after -и
+вашалуб	ваша<N>><pl>><gen>	yes	plural of group [l]: -л, -у, genitive -б
+йешилулъи	йеши<N>><pl>><gen>	yes	plural of group [l]: -л, -у, genitive -лъи
+йешилуй	йеши<N>><pl>><dat>	yes	dative -й after -у
+макIилуб	макIи<N>><pl>><gen>	yes	both variants (-щу and -лълъи)
+макIилулъи	макIи<N>><pl>><gen>	yes	both variants
+чачанавщуб	чачанав<N>><gen>	yes	-ав, group [l]
+чачаналулъи	чачанав<N>><pl>><gen>	yes	-ав, group [l]
+ахъулу	ахъул<N>><sup>	yes	corpus: aqul-u [hearth-sup]
+муха	муха<N>><sup.lat>	yes	corpus: muχ-a [work-sup.lat] (the lemma is муха, the vowel is dropped)
+хьагичIуку	хьаги<N>><cont>><el>	yes	corpus: xagi-č’u-ku [pan-cont-el]
+рухьулъику	рухьу<N>><in>><el>	yes	corpus: ruxu-ɬi-ku [forest-in-el]
+ахикьи	ахи<N>><sub>	yes	corpus: aχi-ƛʼi [garden-sub]
+рухьулъа	рухьу<N>><in.lat>	yes	corpus: ruxu-ɬa [forest-in.lat]
+бекIунаха	бекIун<N>><apud.lat>	yes	corpus: bek’un-a-χa [corner-obl-apud.lat]
+дордолакьа	дордол<N>><sub.lat>	yes	corpus: dordol-a-ƛʼa [drain-obl-sub.lat]
+вашащухеку	ваша<N>><apud>><el>	yes	corpus: гьу-щу-хе-ку (a pronoun in the corpus)

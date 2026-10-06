@@ -1,0 +1,154 @@
+PATTERNS
+
+CardinalNumerals
+LinkedNumerals
+TenNumerals
+OrdinalNumerals
+OrdinalCases
+InOrdCore
+InOrdCases
+MultiplicativeNumerals
+FractionalNumerals
+CollectiveNumerals
+CollectiveCases
+DistributiveNumerals
+StemNumerals
+CardinalOneCases
+CardinalCases
+
+PATTERN CardinalNumerals
+
+Unit [<NUM>:] [>:>] [<num>:да]
+Ten[-short] [<NUM>:] [>:>] [<num>:да]
+Big[-ordonly] [<NUM>:] [>:>] [<num>:да]
+Hundred [<NUM>:] [>:>] [<num>:да]
+Thousand [<NUM>:] [>:>] [<num>:да]
+One [<NUM>:] [>:>] ClCard
+
+PATTERN CardinalOneCases
+
+One [<NUM>:] [>:>] ClCard[m] [>:>] [<m.obl>:щу] [>:>] CaseCard
+One [<NUM>:] [>:>] ClCard[pl] [>:>] [<pl.obl>:у] [>:>] CaseCard
+One [<NUM>:] [>:>] ClCard[nm] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+One [<NUM>:] [>:>] ClCard[nm] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+One [<NUM>:] [>:>] ClCard[nm] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+
+PATTERN CardinalCases
+
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<m.obl>:щу] [>:>] CaseCard
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<m.obl>:щу] [>:>] CaseCard
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+Big[-ordonly] [<NUM>:] [>:>] [<num>:да] [>:>] [<m.obl>:щу] [>:>] CaseCard
+Big[-ordonly] [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+Big[-ordonly] [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+Big[-ordonly] [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+Hundred [<NUM>:] [>:>] [<num>:да] [>:>] [<m.obl>:щу] [>:>] CaseCard
+Hundred [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+Hundred [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+Hundred [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+Thousand [<NUM>:] [>:>] [<num>:да] [>:>] [<m.obl>:щу] [>:>] CaseCard
+Thousand [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+Thousand [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+Thousand [<NUM>:] [>:>] [<num>:да] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+Unit [<NUM>:] [>:>] [<ten>:цIали] [>:>] [<num>:да] [>:>] [<m.obl>:щу] [>:>] CaseCard
+Unit [<NUM>:] [>:>] [<ten>:цIали] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+Unit [<NUM>:] [>:>] [<ten>:цIали] [>:>] [<num>:да] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+Unit [<NUM>:] [>:>] [<ten>:цIали] [>:>] [<num>:да] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+
+PATTERN LinkedNumerals
+
+Ten [<NUM>:] [>:>] [<lnk>:лъи]
+Ten[-short] [<NUM>:] [>:>] [<lnk>:й]
+Big[-ordonly,-shorth] [<NUM>:] [>:>] [<lnk>:чIуку]
+Hundred [<NUM>:] [>:>] [<lnk>:чIуку]
+Thousand [<NUM>:] [>:>] [<lnk>:чIуку]
+
+PATTERN TenNumerals
+
+Unit [<NUM>:] [>:>] [<ten>:цIали] [>:>] [<num>:да]
+Unit [<NUM>:] [>:>] [<ten.lnk>:цIай] [>:>] [<num>:да]
+Unit [<NUM>:] [>:>] [<ten>:цIали] [>:>] [<lnk>:лъи]
+Unit [<NUM>:] [>:>] [<ten.lnk>:цIай]
+
+PATTERN OrdinalNumerals
+
+InOrdCore [>:>] ClInOrd
+OrdStem [>:>] AnOrd [>:>] ClOrd
+
+PATTERN OrdinalCases
+
+OrdStem [>:>] AnOrd [>:>] ClOrd[m] [>:>] [<m.obl>:щу] [>:>] CaseCard
+OrdStem [>:>] AnOrd [>:>] ClOrd[nm] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+OrdStem [>:>] AnOrd [>:>] ClOrd[nm] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+OrdStem [>:>] AnOrd [>:>] ClOrd[nm] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+OrdStem [>:>] AnOrd [>:>] ClOrd[pl] [>:>] [<pl.obl>:у] [>:>] CaseCard
+
+PATTERN InOrdCore
+
+OrdStem [>:>] [<inan.ord>:хо]
+OneOrd [<NUM>:] [>:>] [<th>:и] [>:>] [<inan.ord>:хо]
+
+PATTERN InOrdCases
+
+InOrdCore [>:>] ClInOrd[m] [>:>] [<m.obl>:щу] [>:>] CaseCard
+InOrdCore [>:>] ClInOrd[nm] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+InOrdCore [>:>] ClInOrd[nm] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+InOrdCore [>:>] ClInOrd[nm] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+InOrdCore [>:>] ClInOrd[pl] [>:>] [<pl.obl>:у] [>:>] CaseCard
+
+PATTERN OrdStem
+
+Unit[th_j] [<NUM>:] [>:>] [<th>:й]
+Unit[th_ji] [<NUM>:] [>:>] [<th>:йи]
+Unit[th_0] [<NUM>:]
+Ten[-short] [<NUM>:] [>:>] [<th>:й]
+Big[th_j] [<NUM>:] [>:>] [<th>:й]
+Hundred [<NUM>:] [>:>] [<th>:й]
+Thousand [<NUM>:] [>:>] [<th>:й]
+Unit [<NUM>:] [>:>] [<ten>:цIали]
+
+PATTERN MultiplicativeNumerals
+
+MultStem[mN] [<NUM>:] [>:>] [<mult>:цIи] ([>:>] [<num>:да])?
+MultStem[mR] [<NUM>:] [>:>] [<mult>:рцIи] ([>:>] [<num>:да])?
+
+PATTERN FractionalNumerals
+
+Unit [<NUM>:] [>:>] [<fract>:ркьа]
+Ten[-short] [<NUM>:] [>:>] [<fract>:ркьа]
+
+PATTERN CollectiveCases
+
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<m.obl>:щу] [>:>] CaseCard
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<pl.obl>:лу] [>:>] CaseCard
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<m.obl>:щу] [>:>] CaseCard
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла] [>:>] [<pl.obl>:лу] [>:>] CaseCard
+
+PATTERN CollectiveNumerals
+
+Unit [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла]
+Ten[-short] [<NUM>:] [>:>] [<num>:да] [>:>] [<col>:ла]
+
+PATTERN DistributiveNumerals
+
+DistrStem [<NUM>:] [<distr>:] [>:>] [<num>:да]
+DistrStem [<NUM>:] [<distr>:] [>:>] [<num>:да] [>:>] [<an>:рикку]
+DistrStem [<NUM>:] [<distr>:] [>:>] [<num>:да] [>:>] [<inan>:бикку]
+DistrOne [<NUM>:] [<distr>:] [>:>] [<an>:рикку]
+DistrOne [<NUM>:] [<distr>:] [>:>] [<inan>:бикку]
+DistrOne [<NUM>:] [<distr>:] [>:>] ClCard
+
+PATTERN StemNumerals
+
+Unit [<NUM>:] [<stem>:]

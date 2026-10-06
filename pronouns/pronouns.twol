@@ -1,0 +1,7 @@
+Alphabet
+    I:I I:Ӏ I:ӏ I:1 ;
+
+Rules
+
+"Palochka: the lexicon writes it as Latin I; on the surface it may be I, Ӏ (U+04C0), ӏ (U+04CF) or 1"
+I:Ӏ => _ ;

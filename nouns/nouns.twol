@@ -1,0 +1,71 @@
+Alphabet
+    >:> %{P%}:0 %{V%}:0 %{Y%}:0 %{Z%}:0 %{J%}:й %{J%}:0 %{I%}:0 %{I%}:и
+    в:в в:0 н:0 %{B%}:б %{B%}:м б:б м:м й:й й:н й:0 у:а л:л л:0 ч:ч ч:0 I:0 у:0
+    а:а е:е и:и о:о у:у э:э ы:ы ю:ю я:я
+    а:0 е:0 и:0 о:0 у:0 э:0 ы:0 ю:0 я:0
+    I:I I:Ӏ I:ӏ I:1
+    ᴴ:ᴴ ᴴ:н н:н ;
+
+Sets
+
+Vowel = а е о э ы ю я ;
+VowelNoI = а е о у э ы ю я ;
+
+Rules
+
+"A final vowel of the stem is dropped before a suffix with {P}: -е, -абалъи, -ве ... (и: see below)"
+Vowel:0 <=> _ >:> %{P%}:0 ;
+
+"The final -у of the stem is dropped before {P}; before -балъи the final -чIу is dropped (see below)"
+у:0 <=> _ >:> %{P%}:0 ;
+        ч:0 I:0 _ >:> %{B%}:б ;
+
+"The final -в of the stem is dropped before the plural -л: чачанав - чачанал"
+в:0 <=> _ >:> %{V%}:0 ;
+
+"The final -и of the stem is dropped before {P}, and before -далъи, -дилъи, -бдалъи, -бдилъи ({Z}, {Y})"
+и:0 <=> _ >:> %{P%}:0 ;
+         _ >:> %{Z%}:0 ;
+         _ >:> %{Y%}:0 ;
+
+"The н before -балъи is lost (нб - м): бесун - бесумалъи, буртина - буртималъи"
+н:0 <=> _ >:> %{B%}:м ;
+          _ >:> %{P%}:0 %{B%}:м ;
+          _ [Vowel:0 | и:0 | у:0] >:> %{P%}:0 %{B%}:м ;
+
+"б after the lost н becomes м"
+%{B%}:м <=> н:0 >:> _ ;
+            н:0 >:> %{P%}:0 _ ;
+            н:0 [Vowel:0 | и:0 | у:0] >:> %{P%}:0 _ ;
+
+"-дилъи: the final -й of the stem becomes н (й is replaced): цIцIуй - цIцIундилъи"
+й:н <=> _ >:> %{Y%}:0 ;
+
+"-далъи, -бдалъи, -бдилъи: the final -й of the stem is dropped: цIцIай - цIцIабдилъи"
+й:0 <=> _ >:> %{Z%}:0 ;
+
+"The final -у of the stem becomes а before -далъи, -дилъи, -бдалъи, -бдилъи: гьеру - гьерабдалъи"
+у:а <=> _ >:> %{Z%}:0 ;
+        _ >:> %{Y%}:0 ;
+
+"-балъи: the final -л of the stem is dropped: гьецIил - гьецIибалъи, регъил - регъибалъи"
+л:0 <=> _ >:> %{B%}:б ;
+
+"-балъи: the final -чIу of the stem is dropped (чIу = ч, I, у): ч here"
+ч:0 <=> _ I:0 у:0 >:> %{B%}:б ;
+
+"-чIу: the palochka is dropped"
+I:0 <=> ч:0 _ у:0 >:> %{B%}:б ;
+
+"Dative {J}{I}: -й after a vowel (not и), е: -йи; after a consonant: -и; after и: nothing"
+%{J%}:й <=> VowelNoI >:> _ ;
+
+"Dative: the -и is lost after -й, i.e. after a vowel (not е) and after и"
+%{I%}:0 <=> [а|о|у|э|ы|ю|я] >:> %{J%}:й _ ;
+            и >:> %{J%}:0 _ ;
+
+"Palochka: the lexicon has I, the surface has I, Ӏ, ӏ or 1"
+I:Ӏ => _ ;
+
+"Nasal: the lexicon has ᴴ, the surface has ᴴ or н"
+ᴴ:н => _ ;

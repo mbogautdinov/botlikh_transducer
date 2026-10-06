@@ -1,0 +1,201 @@
+form	analysis	expected	source
+ден	ден<PRON><I>	yes	personal pronouns: grammar and dictionaries
+ишкур	ден<PRON><I><erg>	yes	personal pronouns: grammar and dictionaries
+ди	ден<PRON><I><obl>><dat>	yes	personal pronouns: grammar and dictionaries
+дий	ден<PRON><I><obl>><dat>	yes	personal pronouns: grammar and dictionaries
+див	ден<PRON><I><obl>><gen><m>	yes	personal pronouns: grammar and dictionaries
+дий	ден<PRON><I><obl>><gen><f>	yes	personal pronouns: grammar and dictionaries
+диб	ден<PRON><I><obl>><gen><n>	yes	personal pronouns: grammar and dictionaries
+дил	ден<PRON><I><obl>><gen><an.pl>	yes	personal pronouns: grammar and dictionaries
+ди	ден<PRON><I><obl>><gen>	yes	personal pronouns: grammar and dictionaries
+мин	мин<PRON><you.sg>	yes	personal pronouns: grammar and dictionaries
+мин	мин<PRON><you.sg><erg>	yes	personal pronouns: grammar and dictionaries
+ду	мин<PRON><you.sg><obl>><dat>	yes	personal pronouns: grammar and dictionaries
+дуй	мин<PRON><you.sg><obl>><dat>	yes	personal pronouns: grammar and dictionaries
+дув	мин<PRON><you.sg><obl>><gen><m>	yes	personal pronouns: grammar and dictionaries
+дуй	мин<PRON><you.sg><obl>><gen><f>	yes	personal pronouns: grammar and dictionaries
+дуб	мин<PRON><you.sg><obl>><gen><n>	yes	personal pronouns: grammar and dictionaries
+дул	мин<PRON><you.sg><obl>><gen><an.pl>	yes	personal pronouns: grammar and dictionaries
+илIи	илIи<PRON><we.incl>	yes	personal pronouns: grammar and dictionaries
+илIи	илIи<PRON><we.incl><erg>	yes	personal pronouns: grammar and dictionaries
+илIий	илIи<PRON><we.incl><obl>><dat>	yes	personal pronouns: grammar and dictionaries
+илIив	илIи<PRON><we.incl><obl>><gen><m>	yes	personal pronouns: grammar and dictionaries
+илIий	илIи<PRON><we.incl><obl>><gen><f>	yes	personal pronouns: grammar and dictionaries
+илIиб	илIи<PRON><we.incl><obl>><gen><n>	yes	personal pronouns: grammar and dictionaries
+илIил	илIи<PRON><we.incl><obl>><gen><an.pl>	yes	personal pronouns: grammar and dictionaries
+ищи	ищи<PRON><we.excl>	yes	personal pronouns: grammar and dictionaries
+ищи	ищи<PRON><we.excl><erg>	yes	personal pronouns: grammar and dictionaries
+ищий	ищи<PRON><we.excl><obl>><dat>	yes	personal pronouns: grammar and dictionaries
+ищив	ищи<PRON><we.excl><obl>><gen><m>	yes	personal pronouns: grammar and dictionaries
+ищий	ищи<PRON><we.excl><obl>><gen><f>	yes	personal pronouns: grammar and dictionaries
+ищиб	ищи<PRON><we.excl><obl>><gen><n>	yes	personal pronouns: grammar and dictionaries
+ищил	ищи<PRON><we.excl><obl>><gen><an.pl>	yes	personal pronouns: grammar and dictionaries
+бишти	бишти<PRON><you.pl>	yes	personal pronouns: grammar and dictionaries
+бишти	бишти<PRON><you.pl><erg>	yes	personal pronouns: grammar and dictionaries
+биштий	бишти<PRON><you.pl><obl>><dat>	yes	personal pronouns: grammar and dictionaries
+биштив	бишти<PRON><you.pl><obl>><gen><m>	yes	personal pronouns: grammar and dictionaries
+биштий	бишти<PRON><you.pl><obl>><gen><f>	yes	personal pronouns: grammar and dictionaries
+биштиб	бишти<PRON><you.pl><obl>><gen><n>	yes	personal pronouns: grammar and dictionaries
+биштил	бишти<PRON><you.pl><obl>><gen><an.pl>	yes	personal pronouns: grammar and dictionaries
+бишди	бишти<PRON><you.pl>	yes	personal pronouns: grammar and dictionaries
+бишдиб	бишти<PRON><you.pl><obl>><gen><n>	yes	personal pronouns: grammar and dictionaries
+илӀи	илIи<PRON><we.incl>	yes	personal pronouns: grammar and dictionaries
+илӏий	илIи<PRON><we.incl><obl>><dat>	yes	personal pronouns: grammar and dictionaries
+ил1иб	илIи<PRON><we.incl><obl>><gen><n>	yes	personal pronouns: grammar and dictionaries
+денда	ден<PRON><I>><refl>	yes	personal pronouns: grammar and dictionaries
+минда	мин<PRON><you.sg>><refl>	yes	personal pronouns: grammar and dictionaries
+илIида	илIи<PRON><we.incl>><refl>	yes	personal pronouns: grammar and dictionaries
+ищида	ищи<PRON><we.excl>><refl>	yes	personal pronouns: grammar and dictionaries
+биштида	бишти<PRON><you.pl>><refl>	yes	personal pronouns: grammar and dictionaries
+ишкурда	ден<PRON><I><erg>><refl>	yes	personal pronouns: grammar and dictionaries
+минда	мин<PRON><you.sg><erg>><refl>	yes	personal pronouns: grammar and dictionaries
+дибда	ден<PRON><I><obl>><gen><n>><refl>	yes	personal pronouns: grammar and dictionaries
+дивда	ден<PRON><I><obl>><gen><m>><refl>	yes	personal pronouns: grammar and dictionaries
+биштибда	бишти<PRON><you.pl><obl>><gen><n>><refl>	yes	personal pronouns: grammar and dictionaries
+биштилда	бишти<PRON><you.pl><obl>><gen><an.pl>><refl>	yes	personal pronouns: grammar and dictionaries
+биштийда	бишти<PRON><you.pl><obl>><gen><f>><refl>	yes	personal pronouns: grammar and dictionaries
+илIибда	илIи<PRON><we.incl><obl>><gen><n>><refl>	yes	personal pronouns: grammar and dictionaries
+дубда	мин<PRON><you.sg><obl>><gen><n>><refl>	yes	personal pronouns: grammar and dictionaries
+дида	ден<PRON><I><obl>><dat>><refl>	yes	personal pronouns: grammar and dictionaries
+дуйда	мин<PRON><you.sg><obl>><dat>><refl>	yes	personal pronouns: grammar and dictionaries
+илӀида	илIи<PRON><we.incl>><refl>	yes	personal pronouns: grammar and dictionaries
+ил1ибда	илIи<PRON><we.incl><obl>><gen><n>><refl>	yes	personal pronouns: grammar and dictionaries
+тIоргу	тIоргу<PRON><all>	yes	personal pronouns: grammar and dictionaries
+тIоргуда	тIоргу<PRON><all>	yes	personal pronouns: grammar and dictionaries
+тIоргудалуди	тIоргу<PRON><all>><pl.obl>><erg>	yes	personal pronouns: grammar and dictionaries
+тIоргудалуб	тIоргу<PRON><all>><pl.obl>><gen>	yes	personal pronouns: grammar and dictionaries
+тIоргудалуй	тIоргу<PRON><all>><pl.obl>><dat>	yes	personal pronouns: grammar and dictionaries
+тӀоргудалуди	тIоргу<PRON><all>><pl.obl>><erg>	yes	personal pronouns: grammar and dictionaries
+т1оргуда	тIоргу<PRON><all>	yes	personal pronouns: grammar and dictionaries
+тIоргудала	тIоргу<PRON><all>=<add>	yes	personal pronouns: grammar and dictionaries
+гьив-гьив	гьиб-гьиб<PRON><every>><m>	yes	personal pronouns: grammar and dictionaries
+гьий-гьий	гьиб-гьиб<PRON><every>><f>	yes	personal pronouns: grammar and dictionaries
+гьиб-гьиб	гьиб-гьиб<PRON><every>><n>	yes	personal pronouns: grammar and dictionaries
+гьиб-гьиб	гьиб-гьиб<PRON><every>><inan.pl>	yes	personal pronouns: grammar and dictionaries
+гьил-гьил	гьиб-гьиб<PRON><every>><an.pl>	yes	personal pronouns: grammar and dictionaries
+гьив-гьивщуди	гьиб-гьиб<PRON><every>><m>><m.obl>><erg>	yes	personal pronouns: grammar and dictionaries
+гьий-гьийлълъиди	гьиб-гьиб<PRON><every>><f>><nm.obl>><erg>	yes	personal pronouns: grammar and dictionaries
+гьиб-гьиблълъиди	гьиб-гьиб<PRON><every>><n>><nm.obl>><erg>	yes	personal pronouns: grammar and dictionaries
+гьиб-гьиблълъиди	гьиб-гьиб<PRON><every>><inan.pl>><nm.obl>><erg>	yes	personal pronouns: grammar and dictionaries
+гьил-гьилуди	гьиб-гьиб<PRON><every>><an.pl>><pl.obl>><erg>	yes	personal pronouns: grammar and dictionaries
+гьив-гьивщуб	гьиб-гьиб<PRON><every>><m>><m.obl>><gen>	yes	personal pronouns: grammar and dictionaries
+гьий-гьийлъилъи	гьиб-гьиб<PRON><every>><f>><nm.obl>><gen>	yes	personal pronouns: grammar and dictionaries
+гьиб-гьиблъилъи	гьиб-гьиб<PRON><every>><n>><nm.obl>><gen>	yes	personal pronouns: grammar and dictionaries
+гьил-гьилуб	гьиб-гьиб<PRON><every>><an.pl>><pl.obl>><gen>	yes	personal pronouns: grammar and dictionaries
+гьив-гьивщуй	гьиб-гьиб<PRON><every>><m>><m.obl>><dat>	yes	personal pronouns: grammar and dictionaries
+гьий-гьийлълъи	гьиб-гьиб<PRON><every>><f>><nm.obl>><dat>	yes	personal pronouns: grammar and dictionaries
+гьиб-гьиблълъи	гьиб-гьиб<PRON><every>><n>><nm.obl>><dat>	yes	personal pronouns: grammar and dictionaries
+гьил-гьилуй	гьиб-гьиб<PRON><every>><an.pl>><pl.obl>><dat>	yes	personal pronouns: grammar and dictionaries
+гьий-гьийлълъий	гьиб-гьиб<PRON><every>><f>><nm.obl>><dat>	yes	personal pronouns: grammar and dictionaries
+гьив	гьиб<PRON><dem>><m>	yes	demonstrative pronouns: grammar and dictionaries
+гьий	гьиб<PRON><dem>><f>	yes	demonstrative pronouns: grammar and dictionaries
+гьиб	гьиб<PRON><dem>><n>	yes	demonstrative pronouns: grammar and dictionaries
+гьиб	гьиб<PRON><dem>><inan.pl>	yes	demonstrative pronouns: grammar and dictionaries
+гьивол	гьиб<PRON><dem>><an.pl>	yes	demonstrative pronouns: grammar and dictionaries
+инщуди	гьиб<PRON><dem>><m.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+инлълъиди	гьиб<PRON><dem>><nm.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+индуди	гьиб<PRON><dem>><pl.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+инщуб	гьиб<PRON><dem>><m.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+инлъилъи	гьиб<PRON><dem>><nm.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+индуб	гьиб<PRON><dem>><pl.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+инщуй	гьиб<PRON><dem>><m.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+инлълъи	гьиб<PRON><dem>><nm.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+инлълъий	гьиб<PRON><dem>><nm.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+индуй	гьиб<PRON><dem>><pl.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+гов	гоб<PRON><dem>><m>	yes	demonstrative pronouns: grammar and dictionaries
+гой	гоб<PRON><dem>><f>	yes	demonstrative pronouns: grammar and dictionaries
+гоб	гоб<PRON><dem>><n>	yes	demonstrative pronouns: grammar and dictionaries
+гол	гоб<PRON><dem>><an.pl>	yes	demonstrative pronouns: grammar and dictionaries
+гощуди	гоб<PRON><dem>><m.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+голълъиди	гоб<PRON><dem>><nm.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+голуди	гоб<PRON><dem>><pl.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+гощуб	гоб<PRON><dem>><m.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+голъилъи	гоб<PRON><dem>><nm.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+голуб	гоб<PRON><dem>><pl.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+гощуй	гоб<PRON><dem>><m.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+голълъи	гоб<PRON><dem>><nm.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+голълъий	гоб<PRON><dem>><nm.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+голуй	гоб<PRON><dem>><pl.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+гьав	гьаб<PRON><dem>><m>	yes	demonstrative pronouns: grammar and dictionaries
+гьай	гьаб<PRON><dem>><f>	yes	demonstrative pronouns: grammar and dictionaries
+гьаб	гьаб<PRON><dem>><n>	yes	demonstrative pronouns: grammar and dictionaries
+гьал	гьаб<PRON><dem>><an.pl>	yes	demonstrative pronouns: grammar and dictionaries
+гьащуди	гьаб<PRON><dem>><m.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+гьалълъиди	гьаб<PRON><dem>><nm.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+гьалуди	гьаб<PRON><dem>><pl.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+гьащуб	гьаб<PRON><dem>><m.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+гьалъилъи	гьаб<PRON><dem>><nm.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+гьалуб	гьаб<PRON><dem>><pl.obl>><gen>	yes	demonstrative pronouns: grammar and dictionaries
+гьащуй	гьаб<PRON><dem>><m.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+гьалълъи	гьаб<PRON><dem>><nm.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+гьалълъий	гьаб<PRON><dem>><nm.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+гьалуй	гьаб<PRON><dem>><pl.obl>><dat>	yes	demonstrative pronouns: grammar and dictionaries
+гьув	гьуб<PRON><dem>><m>	yes	demonstrative pronouns: grammar and dictionaries
+гьуй	гьуб<PRON><dem>><f>	yes	demonstrative pronouns: grammar and dictionaries
+гьул	гьуб<PRON><dem>><an.pl>	yes	demonstrative pronouns: grammar and dictionaries
+гьущуди	гьуб<PRON><dem>><m.obl>><erg>	yes	demonstrative pronouns: grammar and dictionaries
+энв	энв<PRON><who>><m>	yes	interrogative and other pronouns: grammar and dictionaries
+энй	энв<PRON><who>><f>	yes	interrogative and other pronouns: grammar and dictionaries
+энл	энв<PRON><who>><an.pl>	yes	interrogative and other pronouns: grammar and dictionaries
+эб	эб<PRON><what>><n>	yes	interrogative and other pronouns: grammar and dictionaries
+эб	эб<PRON><what>><inan.pl>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъеди	энв<PRON><who><obl>><erg>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъунди	эб<PRON><what><obl>><erg>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъев	энв<PRON><who><obl>><gen><m>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъей	энв<PRON><who><obl>><gen><f>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъеб	энв<PRON><who><obl>><gen><n>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъел	энв<PRON><who><obl>><gen><an.pl>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъунлъи	эб<PRON><what><obl>><gen>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъе	энв<PRON><who><obl>><dat>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъей	энв<PRON><who><obl>><dat>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъунй	эб<PRON><what><obl>><dat>	yes	interrogative and other pronouns: grammar and dictionaries
+энвхвала	энв<PRON><who>><m>=<indef>	yes	interrogative and other pronouns: grammar and dictionaries
+эбкIвала	эб<PRON><what>><n>=<indef>	yes	interrogative and other pronouns: grammar and dictionaries
+эбхула	эб<PRON><what>><n>=<inan.cq>	yes	interrogative and other pronouns: grammar and dictionaries
+эблъила	эб<PRON><what>><n>=<an.cq>	yes	interrogative and other pronouns: grammar and dictionaries
+энкIвала	энв<PRON><who>=<indef>	yes	interrogative and other pronouns: grammar and dictionaries
+энхвала	энв<PRON><who>=<indef>	yes	interrogative and other pronouns: grammar and dictionaries
+энлъила	энв<PRON><who>=<an.cq>	yes	interrogative and other pronouns: grammar and dictionaries
+энкӀвала	энв<PRON><who>=<indef>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъедилъила	энв<PRON><who><obl>><erg>=<an.cq>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъебхула	энв<PRON><who><obl>><gen><n>=<inan.cq>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъевлъила	энв<PRON><who><obl>><gen><m>=<an.cq>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъеллъила	энв<PRON><who><obl>><gen><an.pl>=<an.cq>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъедикIвала	энв<PRON><who><obl>><erg>=<indef>	yes	interrogative and other pronouns: grammar and dictionaries
+лълъедихвала	энв<PRON><who><obl>><erg>=<indef>	yes	interrogative and other pronouns: grammar and dictionaries
+эбхвалада	эб<PRON><what>><n>=<indef>=<int>	yes	interrogative and other pronouns: grammar and dictionaries
+денла	ден<PRON><I>=<add>	yes	interrogative and other pronouns: grammar and dictionaries
+миндала	мин<PRON><you.sg>=<even>	yes	interrogative and other pronouns: grammar and dictionaries
+эбла	эб<PRON><what>><n>=<cq>	yes	interrogative and other pronouns: grammar and dictionaries
+гьулълъихи	гьуб<PRON><dem>><nm.obl>><apud>	yes	corpus
+гьущухеку	гьуб<PRON><dem>><m.obl>><apud>><el>	yes	corpus
+гьулухеку	гьуб<PRON><dem>><pl.obl>><apud>><el>	yes	corpus
+гьулълъичIу	гьуб<PRON><dem>><nm.obl>><cont>	yes	corpus
+гьущуха	гьуб<PRON><dem>><m.obl>><apud.lat>	yes	corpus
+дучIу	мин<PRON><you.sg><obl>><cont>	yes	corpus
+гощув	гоб<PRON><dem>><m.obl>><gen><m>	yes	corpus
+инщухе	гьиб<PRON><dem>><m.obl>><apud>	yes	corpus
+инщуха	гьиб<PRON><dem>><m.obl>><apud.lat>	yes	corpus
+инщухеку	гьиб<PRON><dem>><m.obl>><apud>><el>	yes	corpus
+индулда	гьиб<PRON><dem>><pl.obl>><gen><an.pl>=<int>	yes	corpus
+гьулълъилъи	гьуб<PRON><dem>><nm.obl>><gen>	yes	corpus
+гьалълъилъи	гьаб<PRON><dem>><nm.obl>><gen>	yes	corpus
+инлълъилъида	гьиб<PRON><dem>><nm.obl>><in>=<int>	yes	corpus
+габ	габ<PRON><dem>><n>	yes	corpus
+дов	доб<PRON><dem>><m>	yes	corpus
+голъа	гоб<PRON><dem>><in.lat>	yes	corpus
+долъа	доб<PRON><dem>><in.lat>	yes	corpus
+гьулъа	гьуб<PRON><dem>><in.lat>	yes	corpus
+гьулъала	гьуб<PRON><dem>><in.lat>=<add>	yes	corpus
+гьацеб	гьацеб<PRON><dem>><n>	yes	corpus
+гьацел	гьацеб<PRON><dem>><an.pl>	yes	corpus
+гоцел	гоцеб<PRON><dem>><an.pl>	yes	corpus
+гьацебла	гьацеб<PRON><dem>><n>=<add>	yes	corpus
+гьацегъов	гьацеб<PRON><dem>=<restr>><m>	yes	corpus
+гоцегъов	гоцеб<PRON><dem>=<restr>><m>	yes	corpus
+гьацегъаб	гьацеб<PRON><dem>=<restr>><n>	yes	corpus
+эштуб	эштуб<PRON><which>><n>	yes	corpus
+эштубхула	эштуб<PRON><which>><n>=<inan.cq>	yes	corpus
+гьуштуб	гьуштуб<PRON><such>><n>	yes	corpus
+дийхоб	ден<PRON><I><obl>><dat>=<inan.atr>><n>	yes	corpus
+дуйхоб	мин<PRON><you.sg><obl>><dat>=<inan.atr>><n>	yes	corpus

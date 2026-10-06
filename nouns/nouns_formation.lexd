@@ -1,0 +1,197 @@
+PATTERNS
+
+Noun
+
+PATTERN Noun
+
+NounForms
+NounCases
+
+PATTERN NounForms
+
+NounH [<N>:]
+NounU [<N>:]
+NounH[de]      [<N>:] [>:>] PlDe
+NounH[e]       [<N>:] [>:>] PlE
+NounH[balji]   [<N>:] [>:>] PlBalji
+NounH[abalji]  [<N>:] [>:>] PlAbalji
+NounH[ibalji]  [<N>:] [>:>] PlIbalji
+NounH[vabalji] [<N>:] [>:>] PlVabalji
+NounH[al]      [<N>:] [>:>] PlAl
+NounH[l]       [<N>:] [>:>] PlL
+NounH[ve]      [<N>:] [>:>] PlVe
+NounH[zabalji] [<N>:] [>:>] PlZabalji
+NounH[jabalji] [<N>:] [>:>] PlJabalji
+NounH[malji]   [<N>:] [>:>] PlMalji
+NounH[dalji]   [<N>:] [>:>] PlDalji
+NounH[dilji]   [<N>:] [>:>] PlDilji
+NounH[bdalji]  [<N>:] [>:>] PlBdalji
+NounH[bdilji]  [<N>:] [>:>] PlBdilji
+
+PATTERN NounCases
+
+NounH          [<N>:] [>:>] SupAll
+NounU          [<N>:] [>:>] SupAll
+NounH[th]      [<N>:] SgTh
+NounU          [<N>:] SgTh
+NounH[shu]     [<N>:] SgShu
+NounU          [<N>:] SgShu
+NounH[lli]     [<N>:] SgLli
+NounU          [<N>:] SgLli
+NounH[de]      [<N>:] [>:>] PlDe [>:>] Case
+NounH[e]       [<N>:] [>:>] PlE [>:>] Case
+NounH[balji]   [<N>:] [>:>] PlBalji [>:>] Case
+NounH[abalji]  [<N>:] [>:>] PlAbalji [>:>] Case
+NounH[ibalji]  [<N>:] [>:>] PlIbalji [>:>] Case
+NounH[vabalji] [<N>:] [>:>] PlVabalji [>:>] Case
+NounH[al]      [<N>:] [>:>] PlAl [>:>] Case
+NounH[ve]      [<N>:] [>:>] PlVe [>:>] Case
+NounH[zabalji] [<N>:] [>:>] PlZabalji [>:>] Case
+NounH[jabalji] [<N>:] [>:>] PlJabalji [>:>] Case
+NounH[malji]   [<N>:] [>:>] PlMalji [>:>] Case
+NounH[dalji]   [<N>:] [>:>] PlDalji [>:>] Case
+NounH[dilji]   [<N>:] [>:>] PlDilji [>:>] Case
+NounH[bdalji]  [<N>:] [>:>] PlBdalji [>:>] Case
+NounH[bdilji]  [<N>:] [>:>] PlBdilji [>:>] Case
+NounH[shu]     [<N>:] [>:>] PlL [:>] [:у] [>:>] CaseShu
+NounH[lli]     [<N>:] [>:>] PlL [:>] [:у] [>:>] Case
+
+PATTERN SupAll
+
+Sup
+Sup [>:>] El
+[<sup.lat>:{P}а]
+
+PATTERN Sup
+
+[<sup>:{P}е]
+[<sup>:{P}у]
+[<sup>:{P}ди]
+
+PATTERN LocAll
+
+LocBase
+LocBase [>:>] El
+LocLat
+
+PATTERN LocBase
+
+[<cont>:чIу]
+[<apud>:хе]
+[<apud>:хи]
+[<apud>:хъе]
+[<apud>:хъи]
+[<in>:лъи]
+[<in>:лълъу]
+[<in>:лIи]
+[<sub>:кьи]
+
+PATTERN LocLat
+
+[<apud.lat>:ха]
+[<apud.lat>:хъа]
+[<in.lat>:лъа]
+[<in.lat>:лълъа]
+[<sub.lat>:кьа]
+
+PATTERN El
+
+[<el>:ку]
+[<el>:ру]
+
+PATTERN SgTh
+
+[:>] Them [>:>] Case
+[:>] Them [>:>] LocAll
+
+PATTERN SgShu
+
+[:>] [:щу] [>:>] CaseShu
+[:>] [:щу] [>:>] LocAll
+
+PATTERN SgLli
+
+[:>] [:лълъи] [>:>] Case
+[:>] [:лълъи] [>:>] LocAll
+
+PATTERN Them
+
+[:{P}а]
+[:{P}и]
+[:{P}у]
+
+PATTERN Case
+
+[<erg>:ди]
+[<gen>:лъи]
+[<dat>:{J}{I}]
+
+PATTERN CaseShu
+
+[<erg>:ди]
+[<gen>:б]
+[<dat>:{J}{I}]
+
+PATTERN PlDe
+
+[<pl>:де]
+
+PATTERN PlE
+
+[<pl>:{P}е]
+
+PATTERN PlBalji
+
+[<pl>:{B}алъи]
+
+PATTERN PlAbalji
+
+[<pl>:{P}абалъи]
+
+PATTERN PlIbalji
+
+[<pl>:{P}ибалъи]
+
+PATTERN PlVabalji
+
+[<pl>:{P}вабалъи]
+
+PATTERN PlAl
+
+[<pl>:ал]
+
+PATTERN PlL
+
+[<pl>:{V}л]
+
+PATTERN PlVe
+
+[<pl>:{P}ве]
+
+PATTERN PlZabalji
+
+[<pl>:забалъи]
+
+PATTERN PlJabalji
+
+[<pl>:йабалъи]
+
+PATTERN PlMalji
+
+[<pl>:{P}{B}алъи]
+
+PATTERN PlDalji
+
+[<pl>:{Z}далъи]
+
+PATTERN PlDilji
+
+[<pl>:{Y}дилъи]
+
+PATTERN PlBdalji
+
+[<pl>:{Z}бдалъи]
+
+PATTERN PlBdilji
+
+[<pl>:{Z}бдилъи]

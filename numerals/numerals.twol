@@ -1,0 +1,17 @@
+Alphabet
+    %{A%}:а %{A%}:о
+    %{M%}:0
+    >:>
+    а:а о:о
+    I:I I:Ӏ I:ӏ I:1 ;
+
+Rules
+
+"A is o before the masculine marker (-лъов, -лъо)"
+%{A%}:о <=> _ >:> %{M%}:0 ;
+
+"Remove the masculine archiphoneme"
+%{M%}:0 <=> _ ;
+
+"Palochka: the lexicon writes it as Latin I; on the surface it may be I, Ӏ (U+04C0), ӏ (U+04CF) or 1"
+I:Ӏ => _ ;

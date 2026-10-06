@@ -1,0 +1,12 @@
+Alphabet
+    I:I I:Ӏ I:ӏ I:1
+    ᴴ:ᴴ ᴴ:н
+    н:н ;
+
+Rules
+
+"Palochka: the lexicon writes it as Latin I; on the surface it may be I, Ӏ (U+04C0), ӏ (U+04CF) or 1"
+I:Ӏ => _ ;
+
+"Nasal vowel: the dictionary notation ᴴ (аᴴгьо) is written н in texts (ангьо), or stays as in the dictionary"
+ᴴ:н => _ ;

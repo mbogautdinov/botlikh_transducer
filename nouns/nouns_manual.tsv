@@ -1,0 +1,25 @@
+action	lemma	tags	gloss	source	note
+add	мадина		Мадина (женское имя)	corpus	Madina(f.name)
+add	хIадис		Хадис (мужское имя)	corpus	Khadis(m.name)
+add	халифат		Халифат (женское имя)	corpus	Khalifat(f.name)
+add	хадижат		Хадижат (женское имя)	corpus	Khadizhat(f.name)
+add	хайжошка		Хайжошка (женское имя)	corpus	Khajzhoshka(f.name)
+add	тIимпоч		Тимпоч (мужское имя)	corpus	Timpoch(m.name)
+add	кадырова		Кадырова (фамилия)	corpus	Kadyrova(surname)
+add	абдулкадировна		Абдулкадировна (отчество)	corpus	Abdulkadirovna(rus_patronym)
+add	цIагъун		ЦIагъун (название местности)	corpus	Tsakhun(toponym)
+add	дагестан		Дагестан	corpus	Dagestan(toponym); the dictionaries have дагъистан
+add	хъалмухъ		Kalmyk (топоним)	corpus	Kalmyk(toponym); the dictionaries have хъалмухъай, хъалмухъал
+add	буйхе		Ботлих	corpus	Botlikh(toponym)
+add	ведану		Ведено	corpus	Widanu(toponym), spelling Ведану
+add	видану		Ведено	corpus	Widanu(toponym), spelling Видану
+add	москва		Москва	corpus	Moscow(toponym)
+add	гIандил	abalji	шарик из теста	corpus	roll: гIандил-абалъи roll-pl
+add	къун		противень	corpus	baking_sheet; the dictionaries have къуну 'плита, сковорода'
+add	мадугьал		сосед	corpus	neighbour; the dictionaries have мадухал
+add	ццибру		зима	corpus	winter; SA2012 has ццибуру
+add	оригами		оригами	corpus	origami
+add	гьакIва	balji	куст	corpus	bush; AA2019 has only the plural гьакIвабалъи
+tag	хантIа	ibalji		corpus	хантI-ибалъи stick-pl (AA2019: мн. -е)
+tag	гIали	balji		corpus	гIали-балъи leaf-pl (AA2019: мн. -е)
+tag	реа	balji		corpus	реа-балъи hand-pl (no plural hint in the dictionaries)

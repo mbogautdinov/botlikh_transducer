@@ -1,0 +1,46 @@
+lexicon	upper	lower	tags	status	source	note
+Unit	кIеда	кIе	th_ji,th_j	attested	SA2012 p.551 (кIейилъов, кIейихоб); lingconlab corpus (кIейхоб)	2; the ordinal has -йи- in the dictionaries and -й- in the corpus
+Unit	гьабуда	гьабу	th_j	attested	SA2012; AA2019	3
+Unit	бугъуда	бугъу	th_j	attested	SA2012; AA2019	4
+Unit	иштуда	ишту	th_j	attested	SA2012; AA2019	5
+Unit	инлIида	инлIи	th_0	attested	SA2012; AA2019	6
+Unit	гьакьуда	гьакьу	th_j	attested	SA2012; AA2019	7
+Unit	бикьида	бикьи	th_0	attested	SA2012; AA2019	8
+Unit	гьачIада	гьачIа	th_j	attested	SA2012; AA2019	9
+Ten	гьацIада	гьацIа	th_j	attested	SA2012; AA2019	10, long stem (before -лъи/-й, ordinal -й-хоб)
+Ten	гьацIада	гьацI	short	attested	lingconlab (гьацIлъи)	10, short stem: site writes гьацӀлъи, dictionaries гьацIалъи
+Hundred	бешунуда	бешуну	th_j	attested	SA2012; AA2019	100
+Thousand	азаруда	азару	th_j	attested	SA2012; AA2019	1000
+One	цеб	це		attested	SA2012; AA2019	1; class forms цев/цей/цеб/цел/цер follow via ClCard
+OneOrd	цеб	цеб		attested	AA2019	first: цеб-и-хоб, only inanimate attested
+MultStem	гьабуда	гьаб	mN	attested	SA2012 p.553	гьабцIи
+MultStem	гьабуда	гьабу	mR	attested	SA2012 p.553	гьабурцIи
+MultStem	кIеда	кIам	mN	attested	SA2012 p.553	кIамцIи(да) 'twice', irregular stem
+MultStem	бугъуда	бугъу	mR	attested	SA2012	бугъурцIи(да)
+MultStem	иштуда	ишту	mR	predicted	rule	not attested
+MultStem	инлIида	инлIи	mR	predicted	rule	not attested
+MultStem	гьакьуда	гьакьу	mR	attested	SA2012	гьакьурцIида
+MultStem	бикьида	бикьи	mR	attested	SA2012	бикьирцIида
+MultStem	гьачIада	гьачIа	mR	attested	SA2012	гьачIарцIида
+MultStem	гьацIада	гьацIа	mR	attested	SA2012	гьацIарцIида
+MultStem	бешунуда	бешун	mN	attested	SA2012	бешунцIида
+MultStem	азаруда	азар	mN	attested	SA2012	азарцIида
+ClCard	<m>	в	m	attested	SA2012	class I
+ClCard	<f>	й	nm	attested	SA2012	class II
+ClCard	<n>	б	nm	attested	SA2012	class III
+ClCard	<an.pl>	л	pl	attested	SA2012	plural I
+ClCard	<inan.pl>	р	nm	attested	SA2012	plural II (цер); in the oblique it behaves like цеб (SA2012)
+ClOrd	<m>	{M}в	m	attested	SA2012	-лъов
+ClOrd	<m>	{M}		attested	AA2019	-лъо (гьабуйлъо)
+ClOrd	<f>	й	nm	attested	SA2012	-лъай
+ClOrd	<n>	б	nm	attested	SA2012	-лъаб
+ClOrd	<an.pl>	л	pl	attested	SA2012	-лъал
+ClInOrd	<m>	в	m	attested	SA2012 (class marker of -хоб)	-хов
+ClInOrd	<f>	й	nm	attested	SA2012 (class marker of -хоб)	-хой
+ClInOrd	<n>	б	nm	attested	SA2012; AA2019	-хоб (n and plural of non-humans)
+ClInOrd	<an.pl>	л	pl	attested	SA2012 (class marker of -хоб)	-хол
+AnOrd	<an.ord>	лъ{A}		attested	lingconlab; SA2012	animate ordinal; {A} -> о before masculine marker, see numerals.twol
+
+CaseCard	<erg>	ди	erg	attested	SA2012 p.551 (цевщуди, цейлълъиди, целуди)	ergative
+CaseCard	<dat>	й		attested	SA2012 p.551 (цевщуй, цейлълъий, целуй)	dative
+CaseCard	<gen>	б	genb	attested	SA2012 p.551 (цевщуб, целуб); f/n/inan.pl: portmanteau -лъилъи (pattern)	genitive after -щу-/-у-

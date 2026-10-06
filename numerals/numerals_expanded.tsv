@@ -1,0 +1,98 @@
+lexicon	upper	lower	tags	status	source	note
+Unit	кIеда	кIе	th_ji,th_j	attested	SA2012 p.551 (кIейилъов, кIейихоб); lingconlab corpus (кIейхоб)	2; the ordinal has -йи- in the dictionaries and -й- in the corpus
+Unit	гьабуда	гьабу	th_j	attested	SA2012; AA2019	3
+Unit	бугъуда	бугъу	th_j	attested	SA2012; AA2019	4
+Unit	иштуда	ишту	th_j	attested	SA2012; AA2019	5
+Unit	инлIида	инлIи	th_0	attested	SA2012; AA2019	6
+Unit	гьакьуда	гьакьу	th_j	attested	SA2012; AA2019	7
+Unit	бикьида	бикьи	th_0	attested	SA2012; AA2019	8
+Unit	гьачIада	гьачIа	th_j	attested	SA2012; AA2019	9
+Ten	гьацIада	гьацIа	th_j	attested	SA2012; AA2019	10, long stem (before -лъи/-й, ordinal -й-хоб)
+Ten	гьацIада	гьацI	short	attested	lingconlab (гьацIлъи)	10, short stem: site writes гьацӀлъи, dictionaries гьацIалъи
+Hundred	бешунуда	бешуну	th_j	attested	SA2012; AA2019	100
+Thousand	азаруда	азару	th_j	attested	SA2012; AA2019	1000
+One	цеб	це		attested	SA2012; AA2019	1; class forms цев/цей/цеб/цел/цер follow via ClCard
+OneOrd	цеб	цеб		attested	AA2019	first: цеб-и-хоб, only inanimate attested
+MultStem	гьабуда	гьаб	mN	attested	SA2012 p.553	гьабцIи
+MultStem	гьабуда	гьабу	mR	attested	SA2012 p.553	гьабурцIи
+MultStem	кIеда	кIам	mN	attested	SA2012 p.553	кIамцIи(да) 'twice', irregular stem
+MultStem	бугъуда	бугъу	mR	attested	SA2012	бугъурцIи(да)
+MultStem	иштуда	ишту	mR	predicted	rule	not attested
+MultStem	инлIида	инлIи	mR	predicted	rule	not attested
+MultStem	гьакьуда	гьакьу	mR	attested	SA2012	гьакьурцIида
+MultStem	бикьида	бикьи	mR	attested	SA2012	бикьирцIида
+MultStem	гьачIада	гьачIа	mR	attested	SA2012	гьачIарцIида
+MultStem	гьацIада	гьацIа	mR	attested	SA2012	гьацIарцIида
+MultStem	бешунуда	бешун	mN	attested	SA2012	бешунцIида
+MultStem	азаруда	азар	mN	attested	SA2012	азарцIида
+ClCard	<m>	в	m	attested	SA2012	class I
+ClCard	<f>	й	nm	attested	SA2012	class II
+ClCard	<n>	б	nm	attested	SA2012	class III
+ClCard	<an.pl>	л	pl	attested	SA2012	plural I
+ClCard	<inan.pl>	р	nm	attested	SA2012	plural II (цер); in the oblique it behaves like цеб (SA2012)
+ClOrd	<m>	{M}в	m	attested	SA2012	-лъов
+ClOrd	<m>	{M}		attested	AA2019	-лъо (гьабуйлъо)
+ClOrd	<f>	й	nm	attested	SA2012	-лъай
+ClOrd	<n>	б	nm	attested	SA2012	-лъаб
+ClOrd	<an.pl>	л	pl	attested	SA2012	-лъал
+ClInOrd	<m>	в	m	attested	SA2012 (class marker of -хоб)	-хов
+ClInOrd	<f>	й	nm	attested	SA2012 (class marker of -хоб)	-хой
+ClInOrd	<n>	б	nm	attested	SA2012; AA2019	-хоб (n and plural of non-humans)
+ClInOrd	<an.pl>	л	pl	attested	SA2012 (class marker of -хоб)	-хол
+AnOrd	<an.ord>	лъ{A}		attested	lingconlab; SA2012	animate ordinal; {A} -> о before masculine marker, see numerals.twol
+CaseCard	<erg>	ди	erg	attested	SA2012 p.551 (цевщуди, цейлълъиди, целуди)	ergative
+CaseCard	<dat>	й		attested	SA2012 p.551 (цевщуй, цейлълъий, целуй)	dative
+CaseCard	<gen>	б	genb	attested	SA2012 p.551 (цевщуб, целуб); f/n/inan.pl: portmanteau -лъилъи (pattern)	genitive after -щу-/-у-
+Big	кIебешунуда	кIебешуну	th_j	rule	formula	кIеда x 100
+Big	кIеазаруда	кIеазару	th_j	rule	formula	кIеда x 1000
+Big	кIебешунуда	кIе-бешуну	th_j,hyph	attested	AA2019 spelling with hyphen (инлIи-бешунуда)	кIеда x 100, hyphenated
+Big	гьабубешунуда	гьабубешуну	th_j	rule	formula	гьабуда x 100
+Big	гьабуазаруда	гьабуазару	th_j	rule	formula	гьабуда x 1000
+Big	гьабубешунуда	гьабу-бешуну	th_j,hyph	attested	AA2019 spelling with hyphen (инлIи-бешунуда)	гьабуда x 100, hyphenated
+Big	бугъубешунуда	бугъубешуну	th_j	rule	formula	бугъуда x 100
+Big	бугъуазаруда	бугъуазару	th_j	rule	formula	бугъуда x 1000
+Big	бугъубешунуда	бугъу-бешуну	th_j,hyph	attested	AA2019 spelling with hyphen (инлIи-бешунуда)	бугъуда x 100, hyphenated
+Big	иштубешунуда	иштубешуну	th_j	rule	formula	иштуда x 100
+Big	иштуазаруда	иштуазару	th_j	rule	formula	иштуда x 1000
+Big	иштубешунуда	ишту-бешуну	th_j,hyph	attested	AA2019 spelling with hyphen (инлIи-бешунуда)	иштуда x 100, hyphenated
+Big	инлIибешунуда	инлIибешуну	th_j	rule	formula	инлIида x 100
+Big	инлIиазаруда	инлIиазару	th_j	rule	formula	инлIида x 1000
+Big	инлIибешунуда	инлIи-бешуну	th_j,hyph	attested	AA2019 spelling with hyphen (инлIи-бешунуда)	инлIида x 100, hyphenated
+Big	гьакьубешунуда	гьакьубешуну	th_j	rule	formula	гьакьуда x 100
+Big	гьакьуазаруда	гьакьуазару	th_j	rule	formula	гьакьуда x 1000
+Big	гьакьубешунуда	гьакьу-бешуну	th_j,hyph	attested	AA2019 spelling with hyphen (инлIи-бешунуда)	гьакьуда x 100, hyphenated
+Big	бикьибешунуда	бикьибешуну	th_j	rule	formula	бикьида x 100
+Big	бикьиазаруда	бикьиазару	th_j	rule	formula	бикьида x 1000
+Big	бикьибешунуда	бикьи-бешуну	th_j,hyph	attested	AA2019 spelling with hyphen (инлIи-бешунуда)	бикьида x 100, hyphenated
+Big	гьачIабешунуда	гьачIабешуну	th_j	rule	formula	гьачIада x 100
+Big	гьачIаазаруда	гьачIаазару	th_j	rule	formula	гьачIада x 1000
+Big	гьачIабешунуда	гьачIа-бешуну	th_j,hyph	attested	AA2019 spelling with hyphen (инлIи-бешунуда)	гьачIада x 100, hyphenated
+Big	кIебешунуда	кIебешун	shorth	rule	SA2012 (гьакьубешунда); lingconlab corpus (гьабубешунда, гьачIабешунда)	кIеда x 100, short stem before -да
+Big	гьабубешунуда	гьабубешун	shorth	attested	SA2012 (гьакьубешунда); lingconlab corpus (гьабубешунда, гьачIабешунда)	гьабуда x 100, short stem before -да
+Big	бугъубешунуда	бугъубешун	shorth	rule	SA2012 (гьакьубешунда); lingconlab corpus (гьабубешунда, гьачIабешунда)	бугъуда x 100, short stem before -да
+Big	иштубешунуда	иштубешун	shorth	rule	SA2012 (гьакьубешунда); lingconlab corpus (гьабубешунда, гьачIабешунда)	иштуда x 100, short stem before -да
+Big	инлIибешунуда	инлIибешун	shorth	rule	SA2012 (гьакьубешунда); lingconlab corpus (гьабубешунда, гьачIабешунда)	инлIида x 100, short stem before -да
+Big	гьакьубешунуда	гьакьубешун	shorth	attested	SA2012 (гьакьубешунда); lingconlab corpus (гьабубешунда, гьачIабешунда)	гьакьуда x 100, short stem before -да
+Big	бикьибешунуда	бикьибешун	shorth	rule	SA2012 (гьакьубешунда); lingconlab corpus (гьабубешунда, гьачIабешунда)	бикьида x 100, short stem before -да
+Big	гьачIабешунуда	гьачIабешун	shorth	attested	SA2012 (гьакьубешунда); lingconlab corpus (гьабубешунда, гьачIабешунда)	гьачIада x 100, short stem before -да
+Big	бешуназаруда	бешуназару	th_j	rule	formula	x 100000
+Big	кIебешуназаруда	кIебешуназару	th_j	rule	formula	x 100000
+Big	гьабубешуназаруда	гьабубешуназару	th_j	rule	formula	x 100000
+Big	бугъубешуназаруда	бугъубешуназару	th_j	rule	formula	x 100000
+Big	иштубешуназаруда	иштубешуназару	th_j	rule	formula	x 100000
+Big	инлIибешуназаруда	инлIибешуназару	th_j	rule	formula	x 100000
+Big	гьакьубешуназаруда	гьакьубешуназару	th_j	rule	formula	x 100000
+Big	бикьибешуназаруда	бикьибешуназару	th_j	rule	formula	x 100000
+Big	гьачIабешуназаруда	гьачIабешуназару	th_j	rule	formula	x 100000
+Big	гьакьудазаруда	гьакьудазару	th_j,ordonly	attested	AA2019 (гьакьудазаруйхоб)	7000th
+DistrStem	кIеда	кIе-кIе		attested	SA2012	reduplication
+DistrStem	гьабуда	гьабу-гьабу		rule	SA2012	reduplication
+DistrStem	бугъуда	бугъу-бугъу		attested	SA2012	reduplication
+DistrStem	иштуда	ишту-ишту		attested	SA2012	reduplication
+DistrStem	инлIида	инлIи-инлIи		attested	SA2012	reduplication
+DistrStem	гьакьуда	гьакьу-гьакьу		attested	SA2012	reduplication
+DistrStem	бикьида	бикьи-бикьи		attested	SA2012	reduplication
+DistrStem	гьачIада	гьачIа-гьачIа		attested	SA2012	reduplication
+DistrStem	гьацIада	гьацIа-гьацIа		attested	SA2012	reduplication
+DistrStem	иштуда	иштушту		attested	SA2012	variant иштуштуда
+DistrOne	цеб	це-це		attested	SA2012	це-церикку, це-цебикку, це-цев

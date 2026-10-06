@@ -1,0 +1,33 @@
+Alphabet
+    %{A%}:а %{A%}:о
+    %{M%}:0
+    %{N%}:0
+    %{a%}:а %{a%}:0
+    >:>
+    а:а о:о е:е и:и у:у э:э ы:ы ю:ю я:я х:х
+    I:I I:Ӏ I:ӏ I:1
+    ᴴ:ᴴ ᴴ:н н:н ;
+
+Sets
+
+Vowel = а е и о у э ы ю я ;
+
+Rules
+
+"The linking vowel of the plural oblique formant: -алу- after a consonant, -лу- after a vowel"
+%{a%}:0 <=> Vowel >:> _ ;
+
+"A is o before the masculine marker (-ов, -о) and before the neuter marker (-хоб)"
+%{A%}:о <=> _ >:> [ %{M%}:0 | %{N%}:0 ] ;
+
+"Remove the masculine archiphoneme"
+%{M%}:0 <=> _ ;
+
+"The neuter -об exists only after -ха (-хаб, -хоб): {N} is removed only there"
+%{N%}:0 <=> х:х %{A%}:о >:> _ ;
+
+"Palochka: the lexicon has I, the surface has I, Ӏ, ӏ or 1"
+I:Ӏ => _ ;
+
+"Nasal: the lexicon has ᴴ, the surface has ᴴ or н"
+ᴴ:н => _ ;

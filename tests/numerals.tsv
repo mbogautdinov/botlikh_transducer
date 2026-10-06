@@ -1,0 +1,151 @@
+form	analysis	expected	source
+кIеда	кIеда<NUM>><num>	yes	corpus [two-num]
+гьацIлъи	гьацIада<NUM>><lnk>	yes	corpus [ten-lnk]
+гьакьуда	гьакьуда<NUM>><num>	yes	corpus [seven-num]
+кIейилъаб	кIеда<NUM>><th>><an.ord>><n>	yes	corpus [two-th-an.ord-n]
+гьакьуйхоб	гьакьуда<NUM>><th>><inan.ord>><n>	yes	corpus [seven-th-inan.ord-n]
+кIеркьа	кIеда<NUM>><fract>	yes	corpus [two-fract]
+гьабцIи	гьабуда<NUM>><mult>	yes	corpus [three-mult]
+бикьицIалида	бикьида<NUM>><ten>><num>	yes	corpus [eight-ten-num]
+бешунучIуку	бешунуда<NUM>><lnk>	yes	corpus [hundred-lnk]
+цев	цеб<NUM>><m>	yes	SA2012 class I
+цевщуди	цеб<NUM>><m>><m.obl>><erg>	yes	SA2012 p.551 (paradigm of цеб)
+цевщуб	цеб<NUM>><m>><m.obl>><gen>	yes	SA2012 p.551 (paradigm of цеб)
+цевщуй	цеб<NUM>><m>><m.obl>><dat>	yes	SA2012 p.551 (paradigm of цеб)
+цейлълъиди	цеб<NUM>><f>><nm.obl>><erg>	yes	SA2012 p.551 (paradigm of цеб)
+цейлъилъи	цеб<NUM>><f>><nm.obl>><gen>	yes	SA2012 p.551 (paradigm of цеб)
+цейлълъи	цеб<NUM>><f>><nm.obl>><dat>	yes	SA2012 p.551 (paradigm of цеб)
+цеблълъиди	цеб<NUM>><n>><nm.obl>><erg>	yes	SA2012 p.551 (paradigm of цеб)
+цеблъилъи	цеб<NUM>><n>><nm.obl>><gen>	yes	SA2012 p.551 (paradigm of цеб)
+цеблълъи	цеб<NUM>><n>><nm.obl>><dat>	yes	SA2012 p.551 (paradigm of цеб)
+целуди	цеб<NUM>><an.pl>><pl.obl>><erg>	yes	SA2012 p.551 (paradigm of цеб)
+целуб	цеб<NUM>><an.pl>><pl.obl>><gen>	yes	SA2012 p.551 (paradigm of цеб)
+целуй	цеб<NUM>><an.pl>><pl.obl>><dat>	yes	SA2012 p.551 (paradigm of цеб)
+кIедащуди	кIеда<NUM>><num>><m.obl>><erg>	yes	paradigm of кIеда
+кIедащуб	кIеда<NUM>><num>><m.obl>><gen>	yes	paradigm of кIеда
+кIедащуй	кIеда<NUM>><num>><m.obl>><dat>	yes	paradigm of кIеда
+кIедалълъиди	кIеда<NUM>><num>><nm.obl>><erg>	yes	paradigm of кIеда
+кIедалъилъи	кIеда<NUM>><num>><nm.obl>><gen>	yes	paradigm of кIеда
+кIедалълъи	кIеда<NUM>><num>><nm.obl>><dat>	yes	paradigm of кIеда
+кIейилъовщуди	кIеда<NUM>><th>><an.ord>><m>><m.obl>><erg>	yes	SA2012 (ordinal paradigm)
+кIейилъовщуб	кIеда<NUM>><th>><an.ord>><m>><m.obl>><gen>	yes	SA2012 (ordinal paradigm)
+кIейилъовщуй	кIеда<NUM>><th>><an.ord>><m>><m.obl>><dat>	yes	SA2012 (ordinal paradigm)
+кIейилъайлълъиди	кIеда<NUM>><th>><an.ord>><f>><nm.obl>><erg>	yes	SA2012 (ordinal paradigm)
+кIейилъайлъилъи	кIеда<NUM>><th>><an.ord>><f>><nm.obl>><gen>	yes	SA2012 (ordinal paradigm)
+кIейилъайлълъи	кIеда<NUM>><th>><an.ord>><f>><nm.obl>><dat>	yes	SA2012 (ordinal paradigm)
+кIейилъаблълъиди	кIеда<NUM>><th>><an.ord>><n>><nm.obl>><erg>	yes	SA2012 (ordinal paradigm)
+кIейилъаблъилъи	кIеда<NUM>><th>><an.ord>><n>><nm.obl>><gen>	yes	SA2012 (ordinal paradigm)
+кIейилъаблълъи	кIеда<NUM>><th>><an.ord>><n>><nm.obl>><dat>	yes	SA2012 (ordinal paradigm)
+кIейилъалуди	кIеда<NUM>><th>><an.ord>><an.pl>><pl.obl>><erg>	yes	SA2012 (ordinal paradigm)
+кIейилъалуб	кIеда<NUM>><th>><an.ord>><an.pl>><pl.obl>><gen>	yes	SA2012 (ordinal paradigm)
+кIейилъалуй	кIеда<NUM>><th>><an.ord>><an.pl>><pl.obl>><dat>	yes	SA2012 (ordinal paradigm)
+кIедалащуди	кIеда<NUM>><num>><col>><m.obl>><erg>	yes	paradigm of the collective numerals
+кIедалащуб	кIеда<NUM>><num>><col>><m.obl>><gen>	yes	paradigm of the collective numerals
+кIедалащуй	кIеда<NUM>><num>><col>><m.obl>><dat>	yes	paradigm of the collective numerals
+кIедалалълъиди	кIеда<NUM>><num>><col>><nm.obl>><erg>	yes	paradigm of the collective numerals
+кIедалалъилъи	кIеда<NUM>><num>><col>><nm.obl>><gen>	yes	paradigm of the collective numerals
+кIедалалълъи	кIеда<NUM>><num>><col>><nm.obl>><dat>	yes	paradigm of the collective numerals
+кIедалалуди	кIеда<NUM>><num>><col>><pl.obl>><erg>	yes	paradigm of the collective numerals
+кIедалалуб	кIеда<NUM>><num>><col>><pl.obl>><gen>	yes	paradigm of the collective numerals
+кIедалалуй	кIеда<NUM>><num>><col>><pl.obl>><dat>	yes	paradigm of the collective numerals
+азаруда	азаруда<NUM>><num>	yes	AA2019 (dictionary)
+азаручIуку	азаруда<NUM>><lnk>	yes	SA2012 (dictionary)
+азарцIида	азаруда<NUM>><mult>><num>	yes	SA2012 (dictionary)
+бешунуда	бешунуда<NUM>><num>	yes	AA2019 (dictionary)
+бешунцIида	бешунуда<NUM>><mult>><num>	yes	SA2012 (dictionary)
+бикьи	бикьида<NUM><stem>	yes	AA2019 (dictionary)
+бикьи-бикьида	бикьида<NUM><distr>><num>	yes	SA2012 (dictionary)
+бикьиазаруда	бикьиазаруда<NUM>><num>	yes	SA2012 (dictionary)
+бикьибешуназаруда	бикьибешуназаруда<NUM>><num>	yes	SA2012 (dictionary)
+бикьибешунуда	бикьибешунуда<NUM>><num>	yes	SA2012 (dictionary)
+бикьида	бикьида<NUM>><num>	yes	AA2019 (dictionary)
+бикьидала	бикьида<NUM>><num>><col>	yes	AA2019 (dictionary)
+бикьилъаб	бикьида<NUM>><an.ord>><n>	yes	SA2012 (dictionary)
+бикьирцIида	бикьида<NUM>><mult>><num>	yes	SA2012 (dictionary)
+бикьихоб	бикьида<NUM>><inan.ord>><n>	yes	AA2019 (dictionary)
+бикьицIайда	бикьида<NUM>><ten.lnk>><num>	yes	AA2019 (dictionary)
+бикьицIалилъи	бикьида<NUM>><ten>><lnk>	yes	SA2012 (dictionary)
+бугъу	бугъуда<NUM><stem>	yes	AA2019 (dictionary)
+бугъу-бугъуда	бугъуда<NUM><distr>><num>	yes	SA2012 (dictionary)
+бугъуазаруда	бугъуазаруда<NUM>><num>	yes	SA2012 (dictionary)
+бугъубешунуда	бугъубешунуда<NUM>><num>	yes	SA2012 (dictionary)
+бугъуда	бугъуда<NUM>><num>	yes	AA2019 (dictionary)
+бугъудала	бугъуда<NUM>><num>><col>	yes	SA2012 (dictionary)
+бугъуйлъаб	бугъуда<NUM>><th>><an.ord>><n>	yes	SA2012 (dictionary)
+бугъуйхоб	бугъуда<NUM>><th>><inan.ord>><n>	yes	AA2019 (dictionary)
+бугъурцIида	бугъуда<NUM>><mult>><num>	yes	SA2012 (dictionary)
+бугъуцIай	бугъуда<NUM>><ten.lnk>	yes	SA2012 (dictionary)
+бугъуцIайда	бугъуда<NUM>><ten.lnk>><num>	yes	AA2019 (dictionary)
+бугъуцIалида	бугъуда<NUM>><ten>><num>	yes	SA2012 (dictionary)
+гьабуда	гьабуда<NUM>><num>	yes	AA2019 (dictionary)
+гьабудала	гьабуда<NUM>><num>><col>	yes	AA2019 (dictionary)
+гьакьу-гьакьуда	гьакьуда<NUM><distr>><num>	yes	SA2012 (dictionary)
+гьакьуазаруда	гьакьуазаруда<NUM>><num>	yes	SA2012 (dictionary)
+гьацIа-гьацIада	гьацIада<NUM><distr>><num>	yes	SA2012 (dictionary)
+гьацIада	гьацIада<NUM>><num>	yes	SA2012 (dictionary)
+гьацIай	гьацIада<NUM>><lnk>	yes	AA2019 (dictionary)
+цеб	цеб<NUM>><n>	yes	AA2019 (dictionary)
+гьацIалъи	гьацIада<NUM>><lnk>	yes	AA2019 (dictionary)
+гьачIа-гьачIада	гьачIада<NUM><distr>><num>	yes	SA2012 (dictionary)
+гьачIада	гьачIада<NUM>><num>	yes	SA2012 (dictionary)
+гьачIарцIида	гьачIада<NUM>><mult>><num>	yes	SA2012 (dictionary)
+гьачIацIайда	гьачIада<NUM>><ten.lnk>><num>	yes	AA2019 (dictionary)
+гьачIацIалида	гьачIада<NUM>><ten>><num>	yes	SA2012 (dictionary)
+гьачIацIалилъи	гьачIада<NUM>><ten>><lnk>	yes	SA2012 (dictionary)
+инлIи-бешунуда	инлIибешунуда<NUM>><num>	yes	AA2019 (dictionary)
+инлIи-инлIида	инлIида<NUM><distr>><num>	yes	SA2012 (dictionary)
+инлIида	инлIида<NUM>><num>	yes	SA2012 (dictionary)
+ишту-иштуда	иштуда<NUM><distr>><num>	yes	SA2012 (dictionary)
+иштубешунуда	иштубешунуда<NUM>><num>	yes	SA2012 (dictionary)
+иштуда	иштуда<NUM>><num>	yes	AA2019 (dictionary)
+иштудала	иштуда<NUM>><num>><col>	yes	AA2019 (dictionary)
+иштуцIай	иштуда<NUM>><ten.lnk>	yes	SA2012 (dictionary)
+иштуцIалида	иштуда<NUM>><ten>><num>	yes	SA2012 (dictionary)
+иштуцIалилъи	иштуда<NUM>><ten>><lnk>	yes	SA2012 (dictionary)
+кIе-кIеда	кIеда<NUM><distr>><num>	yes	SA2012 (dictionary)
+кIе-кIедарикку	кIеда<NUM><distr>><num>><an>	yes	SA2012 (dictionary)
+кIе-бешунуда	кIебешунуда<NUM>><num>	yes	AA2019 (dictionary)
+кIеазаруда	кIеазаруда<NUM>><num>	yes	SA2012 (dictionary)
+кIебешунуда	кIебешунуда<NUM>><num>	yes	SA2012 (dictionary)
+кIедала	кIеда<NUM>><num>><col>	yes	AA2019 (dictionary)
+кIецIай	кIеда<NUM>><ten.lnk>	yes	SA2012 (dictionary)
+кIецIалида	кIеда<NUM>><ten>><num>	yes	SA2012 (dictionary)
+кIецIалилъи	кIеда<NUM>><ten>><lnk>	yes	SA2012 (dictionary)
+це-цеб	цеб<NUM><distr>><n>	yes	SA2012 (dictionary)
+це-цебикку	цеб<NUM><distr>><inan>	yes	SA2012 (dictionary)
+гьабуйхоб	гьабуда<NUM>><th>><inan.ord>><n>	yes	AA2019 (dictionary)
+гьакьудазаруйхоб	гьакьудазаруда<NUM>><th>><inan.ord>><n>	yes	AA2019 (dictionary)
+гьакьуйлъаб	гьакьуда<NUM>><th>><an.ord>><n>	yes	SA2012 (dictionary)
+гьакьуцIалилъаб	гьакьуда<NUM>><ten>><an.ord>><n>	yes	SA2012 (dictionary)
+гьацIайлъаб	гьацIада<NUM>><th>><an.ord>><n>	yes	SA2012 (dictionary)
+гьацIайхоб	гьацIада<NUM>><th>><inan.ord>><n>	yes	SA2012 (dictionary)
+гьачIайлъаб	гьачIада<NUM>><th>><an.ord>><n>	yes	SA2012 (dictionary)
+гьачIайхоб	гьачIада<NUM>><th>><inan.ord>><n>	yes	AA2019 (dictionary)
+инлIилъаб	инлIида<NUM>><an.ord>><n>	yes	SA2012 (dictionary)
+инлIихоб	инлIида<NUM>><inan.ord>><n>	yes	SA2012 (dictionary)
+иштуйхоб	иштуда<NUM>><th>><inan.ord>><n>	yes	SA2012 (dictionary)
+иштуцIалихоб	иштуда<NUM>><ten>><inan.ord>><n>	yes	SA2012 (dictionary)
+кIеазаруйхоб	кIеазаруда<NUM>><th>><inan.ord>><n>	yes	AA2019 (dictionary)
+кIебешунуйхоб	кIебешунуда<NUM>><th>><inan.ord>><n>	yes	AA2019 (dictionary)
+кIейихоб	кIеда<NUM>><th>><inan.ord>><n>	yes	SA2012 (dictionary)
+кIецIалилъаб	кIеда<NUM>><ten>><an.ord>><n>	yes	SA2012 (dictionary)
+кIецIалихоб	кIеда<NUM>><ten>><inan.ord>><n>	yes	SA2012 (dictionary)
+цебихоб	цеб<NUM>><th>><inan.ord>><n>	yes	SA2012 (dictionary)
+кIейилъов	кIеда<NUM>><th>><an.ord>><m>	yes	grammar sketch and corpus examples
+кIейилъай	кIеда<NUM>><th>><an.ord>><f>	yes	grammar sketch and corpus examples
+кIейилъал	кIеда<NUM>><th>><an.ord>><an.pl>	yes	grammar sketch and corpus examples
+бугъуйлъов	бугъуда<NUM>><th>><an.ord>><m>	yes	grammar sketch and corpus examples
+кIамцIи	кIеда<NUM>><mult>	yes	grammar sketch and corpus examples
+кIамцIида	кIеда<NUM>><mult>><num>	yes	grammar sketch and corpus examples
+гьабурцIи	гьабуда<NUM>><mult>	yes	grammar sketch and corpus examples
+бугъурцIи	бугъуда<NUM>><mult>	yes	grammar sketch and corpus examples
+гьацIарцIида	гьацIада<NUM>><mult>><num>	yes	grammar sketch and corpus examples
+гьацIадала	гьацIада<NUM>><num>><col>	yes	grammar sketch and corpus examples
+це-церикку	цеб<NUM><distr>><an>	yes	grammar sketch and corpus examples
+гьацIа-гьацIадарикку	гьацIада<NUM><distr>><num>><an>	yes	grammar sketch and corpus examples
+кIе-кIедабикку	кIеда<NUM><distr>><num>><inan>	yes	grammar sketch and corpus examples
+гьацIа-гьацIадабикку	гьацIада<NUM><distr>><num>><inan>	yes	grammar sketch and corpus examples
+цей	цеб<NUM>><f>	yes	grammar sketch and corpus examples
+цел	цеб<NUM>><an.pl>	yes	grammar sketch and corpus examples
+цер	цеб<NUM>><inan.pl>	yes	grammar sketch and corpus examples
+бугъуркьа	бугъуда<NUM>><fract>	yes	grammar sketch and corpus examples

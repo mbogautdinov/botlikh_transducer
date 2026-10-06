@@ -1,0 +1,29 @@
+action	pos	upper	lower	class_tag	note	gloss
+add	ADV	бекьа	бекьа		SA2012 sketch (dictionary has бе́къа(да))	вскоре, скоро (по словарю бе́къа(да))
+add	ADV	мискинго	мискинго		SA2012 sketch 'бедно'	бедно
+add	ADV	тIопбда	тIопбда		SA2012 sketch 'полностью'	полностью
+add	ADV	гьакьусса	гьакьусса		SA2012 sketch 'утром'	утром
+add	ADV	гьеал	гьеал		SA2012 sketch 'днем'	днем
+add	ADV	кьвани	кьвани		SA2012 sketch 'много'	много
+add	ADV	ссаламатго	ссаламатго		SA2012 sketch 'изрядно'	изрядно
+add	ADV	гьикьику	гьикьиру		SA2012 sketch: гьикьику // гьикьиру (elative)	?
+add	ADV	къенулъи	къенулъи		SA2012 sketch 'летом' (dictionary: noun)	летом
+add	ADV	учуз	учуз		SA2012 sketch 'дёшево' (dictionary: adj/noun)	дёшево
+add	ADV	къарзи	къарзи		SA2012 sketch 'взаймы' (dictionary: noun)	взаймы
+add	INTJ	огь	огь		SA2012 sketch (dictionary: listed under nouns)	?
+add	INTJ	варе	воре		SA2012 sketch (Воре, гьуб ...) variant of варе	ну-ка
+add	INTJ	ле	ве		SA2012 sketch: Ле//ве (to a man)	эй (обращение к мужчине)
+add	INTJ	ччита	чита		SA2012 sketch (чита / dictionary ччита)	?
+add	INTJ	вабиллагь	вабилагь		SA2012 sketch spelling	?
+add	INTJ	гьан-гьан	гьан-гьан		SA2012 sketch (dictionary гьйн-гьан with ᴴ not parsed)	?
+add	INTJ	вай-вай	вай-вайи		SA2012 sketch	ой-ой
+add	ADV	аду	аду		lingconlab corpus (here); the dictionaries have ару	здесь
+add	ADV	уду	уду		lingconlab corpus (there); SA2012, AA2019 уду (listed as a pronoun in the dictionary table)	там
+add	ADV	хIай	хIай		lingconlab corpus (hup); AA2019 хIай (noun)	но! (понукание осла)
+add	ADV	ина-ина	ина-ина		lingconlab corpus (where~where)	куда-куда (редупликация ина)
+add	ADV	гьеру	гьеру		lingconlab corpus (гье-ру above-el)	сверху
+add	ADV	гьечIиссеа	гьечIиссеъа		lingconlab corpus spelling with ъ (as ссеъа in AA2019)	сначала
+add	ADV	инда	иннда		lingconlab corpus spelling (иннда)	когда
+add	ADV	йинсикIай	йинсикIай	f	lingconlab corpus (й-инсикIа-й f-maybe-f); only the f form is attested	может быть
+add	ADV	валла	валла		lingconlab corpus (yeap_sure); SA2012 валлагьи	конечно, да
+add	PTCL	гьабегье	гьабегье		lingconlab corpus (гьа=бегье so); SA2012 гьабегье (listed as a pronoun in the dictionary table)	вот (близко к говорящему)

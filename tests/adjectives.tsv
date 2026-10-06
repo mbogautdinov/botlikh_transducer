@@ -1,0 +1,64 @@
+form	analysis	expected	source
+вечIер	<m>>бечIер<ADJ>	yes	SA2012 p.547
+йечIер	<f>>бечIер<ADJ>	yes	SA2012 p.547
+бечIер	<n>>бечIер<ADJ>	yes	SA2012 p.547
+речIер	<an.pl>>бечIер<ADJ>	yes	SA2012 p.547
+вечIерщуди	<m>>бечIер<ADJ>><m.obl>><erg>	yes	SA2012 p.548 paradigm
+вечIерщуб	<m>>бечIер<ADJ>><m.obl>><gen>	yes	SA2012 p.548 paradigm
+вечIерщуй	<m>>бечIер<ADJ>><m.obl>><dat>	yes	SA2012 p.548 paradigm
+йечIерлълъиди	<f>>бечIер<ADJ>><nm.obl>><erg>	yes	SA2012 p.548 paradigm
+йечIерлъилъи	<f>>бечIер<ADJ>><nm.obl>><gen>	yes	SA2012 p.548 paradigm
+йечIерлълъий	<f>>бечIер<ADJ>><nm.obl>><dat>	yes	SA2012 p.548 paradigm
+бечIерлълъиди	<n>>бечIер<ADJ>><nm.obl>><erg>	yes	SA2012 p.548 paradigm
+бечIерлъилъи	<n>>бечIер<ADJ>><nm.obl>><gen>	yes	SA2012 p.548 paradigm
+бечIерлълъий	<n>>бечIер<ADJ>><nm.obl>><dat>	yes	SA2012 p.548 paradigm
+речIералуди	<an.pl>>бечIер<ADJ>><pl.obl>><erg>	yes	SA2012 p.548 paradigm
+речIералуб	<an.pl>>бечIер<ADJ>><pl.obl>><gen>	yes	SA2012 p.548 paradigm
+речIералуй	<an.pl>>бечIер<ADJ>><pl.obl>><dat>	yes	SA2012 p.548 paradigm
+вечIухо	<m>>бечIухаб<ADJ>	yes	SA2012 p.547
+вечIухов	<m>>бечIухаб<ADJ>	yes	SA2012 p.547 'вечIухо(в)'
+йечIухай	<f>>бечIухаб<ADJ>	yes	SA2012 p.547
+бечIухаб	<n>>бечIухаб<ADJ>	yes	SA2012 p.547
+бечIухаб	<inan.pl>>бечIухаб<ADJ>	yes	SA2012 p.547 (plural of non-humans)
+речIухал	<an.pl>>бечIухаб<ADJ>	yes	SA2012 p.547
+сурав	сураб<ADJ>><m>	yes	SA2012 p.547 (суро // сурав)
+суро	сураб<ADJ>><m>	yes	SA2012 p.547
+сурай	сураб<ADJ>><f>	yes	SA2012 p.547
+сураб	сураб<ADJ>><n>	yes	SA2012 p.547
+маквасо	маквасаб<ADJ>><m>	yes	SA2012 p.547 'маквасо(в)'
+маквасов	маквасаб<ADJ>><m>	yes	SA2012 p.547
+хьваъал	хьваъаб<ADJ>><an.pl>	yes	SA2012 p.548
+хьваъалуди	хьваъаб<ADJ>><an.pl>><pl.obl>><erg>	yes	SA2012 p.548
+хьваъалуб	хьваъаб<ADJ>><an.pl>><pl.obl>><gen>	yes	SA2012 p.548
+ирххалуди	ирхха<ADJ>><pl.obl>><erg>	yes	SA2012 p.548 (class-less adjective, implied plural)
+ирххалуб	ирхха<ADJ>><pl.obl>><gen>	yes	SA2012 p.548
+ирххалуй	ирхха<ADJ>><pl.obl>><dat>	yes	SA2012 p.548
+ишхъессу	ишхъессуб<ADJ>><m>	yes	SA2012 p.547 / AA2019
+аруссуй	аруссуб<ADJ>><f>	yes	AA2019 grammar
+бекьуссуб	бекьуссуб<ADJ>><n>	yes	AA2019 grammar
+имухассуб	имухассуб<ADJ>><n>	yes	SA2012 p.547
+бечIухагъаб	<n>>бечIухагъаб<ADJ>	yes	SA2012 p.547
+ирхха	ирхха<ADJ>	yes	SA2012 p.546
+гьацIахха	гьацIахха<ADJ>	yes	SA2012 p.546
+зукIкIу	зукIкIу<ADJ>	yes	AA2019 grammar (spelling зукIкIу)
+гьирцIи	гьирцIи<ADJ>	yes	SA2012 p.546
+ххеххи	ххеххи<ADJ>	yes	SA2012 p.546
+беххила	<n>>беххила<ADJ>	yes	SA2012 p.546
+веххила	<m>>беххила<ADJ>	yes	AA2019 grammar (Им. веххила)
+ирххащуди	ирхха<ADJ>><m.obl>><erg>	yes	constructed: adjectives without a class marker decline like the others (not attested)
+ирххащуб	ирхха<ADJ>><m.obl>><gen>	yes	constructed
+ирххащуй	ирхха<ADJ>><m.obl>><dat>	yes	constructed
+ирххалълъиди	ирхха<ADJ>><nm.obl>><erg>	yes	constructed
+ирххалъилъи	ирхха<ADJ>><nm.obl>><gen>	yes	constructed
+ирххалълъий	ирхха<ADJ>><nm.obl>><dat>	yes	constructed
+гьирцIилълъиди	гьирцIи<ADJ>><nm.obl>><erg>	yes	constructed
+гьирцIилуй	гьирцIи<ADJ>><pl.obl>><dat>	yes	constructed (-лу- after a vowel)
+зукIкIущуди	зукIкIу<ADJ>><m.obl>><erg>	yes	constructed
+вечIуха	<m>>бечIуха<ADJ>	yes	SA2012 p.548 (plural section)
+йечIуха	<f>>бечIуха<ADJ>	yes	SA2012 p.548
+бечIуха	<n>>бечIуха<ADJ>	yes	SA2012 p.548
+бечIуха	<inan.pl>>бечIуха<ADJ>	yes	SA2012 p.548 (inanimate plural)
+речIуха	<an.pl>>бечIуха<ADJ>	yes	SA2012 p.548 (plural of humans)
+хьваъал	хьваъаб<ADJ>><an.pl>	yes	SA2012 p.548 (plural in -л)
+хьваъалуди	хьваъаб<ADJ>><an.pl>><pl.obl>><erg>	yes	SA2012 p.548
+хьваъалуб	хьваъаб<ADJ>><an.pl>><pl.obl>><gen>	yes	SA2012 p.548

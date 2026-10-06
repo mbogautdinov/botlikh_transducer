@@ -1,0 +1,262 @@
+PATTERNS
+
+Personal
+PersonalRefl
+ThirdPerson
+Demonstrative
+Qualitative
+Interrogative
+Generalizing
+Determinative
+
+PATTERN Personal
+
+PersNom
+PersNom[erg0] [<erg>:]
+PersErg
+PersObl [<obl>:] [>:>] [<dat>:й]
+PersObl [<obl>:] [>:>] [<dat>:]
+PersObl [<obl>:] [>:>] [<gen>:] ClGen
+PersObl [<obl>:] [>:>] [<gen>:]
+PersObl [<obl>:] [>:>] LocAll
+
+PATTERN PersonalRefl
+
+PersNom [>:>] [<refl>:да]
+PersNom[erg0] [<erg>:] [>:>] [<refl>:да]
+PersErg [>:>] [<refl>:да]
+PersObl [<obl>:] [>:>] [<dat>:й] [>:>] [<refl>:да]
+PersObl [<obl>:] [>:>] [<dat>:] [>:>] [<refl>:да]
+PersObl [<obl>:] [>:>] [<gen>:] ClGen [>:>] [<refl>:да]
+PersObl [<obl>:] [>:>] [<gen>:] [>:>] [<refl>:да]
+
+LEXICON PersNom
+
+ден<PRON><I>:ден                 # я
+мин<PRON><you.sg>:мин[erg0]      # ты
+илIи<PRON><we.incl>:илIи[erg0]   # мы (включая собеседника)
+ищи<PRON><we.excl>:ищи[erg0]     # мы (без собеседника)
+бишти<PRON><you.pl>:бишти[erg0]  # вы
+бишти<PRON><you.pl>:бишди[erg0]  # вы
+
+LEXICON PersErg
+
+ден<PRON><I><erg>:ишкур  # я
+
+LEXICON PersObl
+
+ден<PRON><I>:ди            # я
+мин<PRON><you.sg>:ду       # ты
+илIи<PRON><we.incl>:илIи   # мы (включая собеседника)
+ищи<PRON><we.excl>:ищи     # мы (без собеседника)
+бишти<PRON><you.pl>:бишти  # вы
+бишти<PRON><you.pl>:бишди  # вы
+
+LEXICON ClGen
+
+<m>:в
+<f>:й
+<n>:б
+<inan.pl>:б
+<an.pl>:л
+
+PATTERN ThirdPerson
+
+ThirdStem [>:>] ClThird
+ThirdObl [>:>] [<m.obl>:щу] [>:>] CaseCard
+ThirdObl [>:>] [<pl.obl>:ду] [>:>] CaseCard
+ThirdObl [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+ThirdObl [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:й]
+ThirdObl [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+ThirdObl [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+ThirdObl [>:>] [<nm.obl>:лълъи] [>:>] [<gen>:лъи]
+ThirdObl [>:>] [<m.obl>:щу] [>:>] [<gen>:] ClGenAgr
+ThirdObl [>:>] [<pl.obl>:ду] [>:>] [<gen>:] ClGenAgr
+ThirdObl [>:>] [<m.obl>:щу] [>:>] LocAll
+ThirdObl [>:>] [<pl.obl>:ду] [>:>] LocAll
+ThirdObl [>:>] [<nm.obl>:лълъи] [>:>] LocAll
+
+LEXICON ThirdStem
+
+гьиб<PRON><dem>:гьи  # он, она, оно, они
+
+LEXICON ThirdObl
+
+гьиб<PRON><dem>:ин  # он, она, оно, они
+
+LEXICON ClThird
+
+<m>:в[m]
+<f>:й[nm]
+<n>:б[nm]
+<inan.pl>:б[nm]
+<an.pl>:вол[pl]
+
+PATTERN Demonstrative
+
+DemStem [>:>] ClDem
+DemStem [>:>] [<m.obl>:щу] [>:>] CaseCard
+DemStem [>:>] [<pl.obl>:лу] [>:>] CaseCard
+DemStem [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+DemStem [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:й]
+DemStem [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+DemStem [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+DemStem [>:>] [<nm.obl>:лълъи] [>:>] [<gen>:лъи]
+DemStem [>:>] [<m.obl>:щу] [>:>] [<gen>:] ClGenAgr
+DemStem [>:>] [<pl.obl>:лу] [>:>] [<gen>:] ClGenAgr
+DemStem [>:>] [<m.obl>:щу] [>:>] LocAll
+DemStem [>:>] [<pl.obl>:лу] [>:>] LocAll
+DemStem [>:>] [<nm.obl>:лълъи] [>:>] LocAll
+DemStem[simple] [>:>] [<in.lat>:лъа]
+
+LEXICON DemStem
+
+гьаб<PRON><dem>:гьа[simple]  # этот (близко к говорящему)
+гьуб<PRON><dem>:гьу[simple]  # этот (близко к слушающему)
+гоб<PRON><dem>:го[simple]    # тот (далеко от обоих)
+габ<PRON><dem>:га[simple]    # тот (недалеко и сбоку от говорящего)
+доб<PRON><dem>:до[simple]    # он, она, оно; тот
+гьацеб<PRON><dem>:гьаце      # этот
+гьуцеб<PRON><dem>:гьуце      # этот
+гоцеб<PRON><dem>:гоце        # тот
+
+LEXICON ClDem
+
+<m>:в[m]
+<f>:й[nm]
+<n>:б[nm]
+<inan.pl>:б[nm]
+<an.pl>:л[pl]
+
+LEXICON ClGenAgr
+
+<m>:в
+<f>:й
+<an.pl>:л
+
+PATTERN Qualitative
+
+QualStem [>:>] ClDem
+
+LEXICON QualStem
+
+гьаштуб<PRON><such>:гьашту  # такой
+гьуштуб<PRON><such>:гьушту  # такой
+гоштуб<PRON><such>:гошту    # такой
+эштуб<PRON><which>:эшту     # какой
+
+PATTERN Interrogative
+
+WhoStem [>:>] ClWho
+WhatStem [>:>] ClWhat
+WhoObl [<obl>:] [>:>] CaseCard[erg]
+WhoObl [<obl>:] [>:>] [<dat>:й]
+WhoObl [<obl>:] [>:>] [<dat>:]
+WhoObl [<obl>:] [>:>] [<gen>:] ClGen
+WhatObl [<obl>:] [>:>] CaseCard[erg]
+WhatObl [<obl>:] [>:>] [<dat>:й]
+WhatObl [<obl>:] [>:>] [<gen>:лъи]
+
+LEXICON WhoStem
+
+энв<PRON><who>:эн  # кто
+
+LEXICON WhoObl
+
+энв<PRON><who>:лълъе  # кто
+
+LEXICON WhatStem
+
+эб<PRON><what>:э  # что
+
+LEXICON WhatObl
+
+эб<PRON><what>:лълъун  # что
+
+LEXICON ClWho
+
+<m>:в
+<f>:й
+<an.pl>:л
+
+LEXICON ClWhat
+
+<n>:б
+<inan.pl>:б
+
+PATTERN Generalizing
+
+AllNom
+AllLong [>:>] [<pl.obl>:лу] [>:>] CaseCard
+
+LEXICON AllNom
+
+тIоргу<PRON><all>:тIоргу    # весь, всё, все
+тIоргу<PRON><all>:тIоргуда  # весь, всё, все
+
+LEXICON AllLong
+
+тIоргу<PRON><all>:тIоргуда  # весь, всё, все
+
+PATTERN Determinative
+
+DetStem [>:>] DetCl
+DetStem [>:>] DetCl[m] [>:>] [<m.obl>:щу] [>:>] CaseCard
+DetStem [>:>] DetClPl [>:>] [<pl.obl>:лу] [>:>] CaseCard
+DetStem [>:>] DetCl[nm] [>:>] [<nm.obl>:лълъи] [>:>] CaseCard[erg]
+DetStem [>:>] DetCl[nm] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:й]
+DetStem [>:>] DetCl[nm] [>:>] [<nm.obl>:лълъи] [>:>] [<dat>:]
+DetStem [>:>] DetCl[nm] [>:>] [<nm.obl>:] [>:>] [<gen>:лъилъи]
+
+LEXICON DetStem
+
+гьиб-гьиб<PRON><every>:гьи  # каждый
+
+LEXICON DetCl
+
+<m>:в-гьив[m]
+<f>:й-гьий[nm]
+<n>:б-гьиб[nm]
+<inan.pl>:б-гьиб[nm]
+<an.pl>:л-гьил[pl]
+
+LEXICON DetClPl
+
+<an.pl>:л-гьи
+
+PATTERN LocAll
+
+LocBase
+LocBase [>:>] El
+LocLat
+
+PATTERN LocBase
+
+[<cont>:чIу]
+[<apud>:хе]
+[<apud>:хи]
+[<apud>:хъе]
+[<apud>:хъи]
+[<in>:лъи]
+[<in>:лълъу]
+[<in>:лIи]
+[<sub>:кьи]
+
+PATTERN LocLat
+
+[<apud.lat>:ха]
+[<apud.lat>:хъа]
+[<in.lat>:лъа]
+[<in.lat>:лълъа]
+[<sub.lat>:кьа]
+
+PATTERN El
+
+[<el>:ку]
+[<el>:ру]
+
+LEXICON CaseCard
+
+<erg>:ди[erg]
+<dat>:й
+<gen>:б[genb]

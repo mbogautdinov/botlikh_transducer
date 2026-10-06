@@ -1,0 +1,17 @@
+form	analysis	expected	source
+вашида	ваша<N>=<cop>	yes	corpus
+рушида	руша<N>=<cop>	yes	corpus
+мусида	муса<N>=<cop>	yes	corpus
+кIкIуркIкIунида	кIкIуркIкIун<N>=<cop>	yes	corpus
+инчуда	инчу<N>=<cop>	yes	corpus
+каруда	кару<N>=<cop>	yes	corpus
+нада	на<N>=<cop>	yes	corpus
+кулъебалъида	кулъебалъи<N>=<cop>	yes	corpus
+цIцIайлида	цIцIай<N>=<add>=<cop>	yes	corpus
+гьабида	гьаб<PRON><dem>><n>=<cop>	yes	corpus
+долъида	доб<PRON><dem>><in.lat>=<cop>	yes	corpus
+ищилида	ищи<PRON><we.excl>=<add>=<cop>	yes	corpus
+зукIкIуда	зукIкIу<ADJ>=<cop>	yes	corpus
+вашаида	ваша<N>=<cop>	no	constructed: wrong variant of the copula
+кIкIуркIкIунда	кIкIуркIкIун<N>=<cop>	no	constructed: wrong variant of the copula
+инчуида	инчу<N>=<cop>	no	constructed: wrong variant of the copula

@@ -1,0 +1,17 @@
+PATTERNS
+
+Bare
+
+PATTERN Bare
+
+WhoBare
+DemBare
+
+LEXICON WhoBare
+
+энв<PRON><who>:эн  # кто
+
+LEXICON DemBare
+
+гьацеб<PRON><dem>:гьаце  # этот
+гоцеб<PRON><dem>:гоце    # тот
