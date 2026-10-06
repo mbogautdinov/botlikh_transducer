@@ -199,7 +199,10 @@ On four texts without glosses (`evaluation/texts/botlikh_khabar.tsv`, 3,257 toke
 recognises 54.3% of the tokens and the version with clitics after all words 66.2%.
 
 The notebooks in `evaluation/notebooks/` reproduce these numbers: they install the tools, build the transducer from
-this repository and write all tables and figures.
+this repository and write all tables and figures.  
+
+The files with the suffix `_with_outputs` are the same notebooks after a run in Google Colab: they show
+all tables and figures without running anything.
 
 | Notebook | Content |
 |---|---|
