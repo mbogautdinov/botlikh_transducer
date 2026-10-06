@@ -1,6 +1,6 @@
 action	type	subtype	lemma	stem	stem2	pref	suf	cited	plain	gloss	note
-add	class_prefix_suffix	a	бечIухаб	ечIуха	б	б	бечIухаб	вечIухов	большой	SA2012 p.547 'префиксально-суффиксальный': вечIухо(в) I, йечIухай II, бечIухаб III, речIухал мн. (the dictionary has only prefix-only бечIуха)
-add	class_prefix_suffix	a	бечIухагъаб	ечIухагъа	б	б	бечIухагъаб	бечIухагъаб	один из больших	SA2012 p.547: derived with -гъаб, changes by class
+add	class_prefix_suffix	a	бечIухаб	ечIуха		б	б	бечIухаб	вечIухов	большой	SA2012 p.547 'префиксально-суффиксальный': вечIухо(в) I, йечIухай II, бечIухаб III, речIухал мн. (the dictionary has only prefix-only бечIуха)
+add	class_prefix_suffix	a	бечIухагъаб	ечIухагъа		б	б	бечIухагъаб	бечIухагъаб	один из больших	SA2012 p.547: derived with -гъаб, changes by class
 add	class_suffix	u	имухассуб	имухассу			б	имухассуб	имухассуб	отцовский	SA2012 p.547 example of -ссуб (от имухе 'у отца')
 add	class_suffix	u	бекьуссуб	бекьуссу			б	бекьуссуб	бекьуссуб	находящийся в сарае	AA2019, grammar example (-ссуб)
 add	no_class	plain	батIе-батIеб	батIе-батIеб				батIе-батIеб	батIе-батIеб	разный	SA2012 батIе́-батIе:/б (the notation with the length sign is not read by the parser); corpus батIе-батIеб different~different-n; only this form: the other class forms are not attested
