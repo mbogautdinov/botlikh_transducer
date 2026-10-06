@@ -6,16 +6,16 @@ add	ADV	гьакьусса	гьакьусса		SA2012 sketch 'утром'	утр
 add	ADV	гьеал	гьеал		SA2012 sketch 'днем'	днем
 add	ADV	кьвани	кьвани		SA2012 sketch 'много'	много
 add	ADV	ссаламатго	ссаламатго		SA2012 sketch 'изрядно'	изрядно
-add	ADV	гьикьику	гьикьиру		SA2012 sketch: гьикьику // гьикьиру (elative)	?
+add	ADV	гьикьику	гьикьиру		SA2012 sketch: гьикьику // гьикьиру (elative)	
 add	ADV	къенулъи	къенулъи		SA2012 sketch 'летом' (dictionary: noun)	летом
 add	ADV	учуз	учуз		SA2012 sketch 'дёшево' (dictionary: adj/noun)	дёшево
 add	ADV	къарзи	къарзи		SA2012 sketch 'взаймы' (dictionary: noun)	взаймы
-add	INTJ	огь	огь		SA2012 sketch (dictionary: listed under nouns)	?
+add	INTJ	огь	огь		SA2012 sketch (dictionary: listed under nouns)	
 add	INTJ	варе	воре		SA2012 sketch (Воре, гьуб ...) variant of варе	ну-ка
 add	INTJ	ле	ве		SA2012 sketch: Ле//ве (to a man)	эй (обращение к мужчине)
-add	INTJ	ччита	чита		SA2012 sketch (чита / dictionary ччита)	?
-add	INTJ	вабиллагь	вабилагь		SA2012 sketch spelling	?
-add	INTJ	гьан-гьан	гьан-гьан		SA2012 sketch (dictionary гьйн-гьан with ᴴ not parsed)	?
+add	INTJ	ччита	чита		SA2012 sketch (чита / dictionary ччита)	
+add	INTJ	вабиллагь	вабилагь		SA2012 sketch spelling	
+add	INTJ	гьан-гьан	гьан-гьан		SA2012 sketch (dictionary гьйн-гьан with ᴴ not parsed)	
 add	INTJ	вай-вай	вай-вайи		SA2012 sketch	ой-ой
 add	ADV	аду	аду		lingconlab corpus (here); the dictionaries have ару	здесь
 add	ADV	уду	уду		lingconlab corpus (there); SA2012, AA2019 уду (listed as a pronoun in the dictionary table)	там
